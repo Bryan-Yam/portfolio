@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7ba51a58.css",
-    "main.js": "/portfolio/static/js/main.e03b01cf.js",
+    "main.js": "/portfolio/static/js/main.e76e8edc.js",
     "static/media/tft-set.png": "/portfolio/static/media/tft-set.340afca24552f8f2689a.png",
     "static/media/wii.png": "/portfolio/static/media/wii.0bff6a0fc2b296fe039e.png",
+    "static/media/spotcase.png": "/portfolio/static/media/spotcase.d4aca9937a35a46dd1ad.png",
     "static/media/quest.png": "/portfolio/static/media/quest.2fbb3974b03d620a88f4.png",
     "static/media/box_unopened_tp.png": "/portfolio/static/media/box_unopened_tp.6e88801e73c17bf6d4e4.png",
+    "static/media/cartridge_dark_tp.png": "/portfolio/static/media/cartridge_dark_tp.bf909b65c4a686c4c1bb.png",
     "static/media/spot.png": "/portfolio/static/media/spot.47241b6c7a2d3b05d224.png",
     "static/media/apex.png": "/portfolio/static/media/apex.ad33cc0063c56c76961e.png",
     "static/media/box_overflow.png": "/portfolio/static/media/box_overflow.3e60b591e4675fd35c89.png",
@@ -15,16 +17,18 @@
     "static/media/fridge_overflow.png": "/portfolio/static/media/fridge_overflow.c31822da645072fda203.png",
     "static/media/shelf_overflow.png": "/portfolio/static/media/shelf_overflow.739561519d23bfff8f77.png",
     "static/media/cartridge_overflow.png": "/portfolio/static/media/cartridge_overflow.32a598435c93bc605bd1.png",
+    "static/media/whirligig.jpg": "/portfolio/static/media/whirligig.45fd72f8314e806ac7bd.jpg",
+    "static/media/cartridge_default_tp.png": "/portfolio/static/media/cartridge_default_tp.e9819ad8a19488ffa63e.png",
     "static/media/box_unopened.png": "/portfolio/static/media/box_unopened.74c511a5a28fd2692dc0.png",
     "static/media/shelf_default.png": "/portfolio/static/media/shelf_default.6b4e3dd9d045bd389fef.png",
     "static/media/fridge_unopened.png": "/portfolio/static/media/fridge_unopened.bc39e2153da0871814e9.png",
     "static/media/cartridge_default.png": "/portfolio/static/media/cartridge_default.595c0f13d80141de752f.png",
     "index.html": "/portfolio/index.html",
     "main.7ba51a58.css.map": "/portfolio/static/css/main.7ba51a58.css.map",
-    "main.e03b01cf.js.map": "/portfolio/static/js/main.e03b01cf.js.map"
+    "main.e76e8edc.js.map": "/portfolio/static/js/main.e76e8edc.js.map"
   },
   "entrypoints": [
     "static/css/main.7ba51a58.css",
-    "static/js/main.e03b01cf.js"
+    "static/js/main.e76e8edc.js"
   ]
 }
