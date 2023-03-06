@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ba51a58.css",
-    "main.js": "/static/js/main.a3faa3bb.js",
+    "main.css": "/static/css/main.6d43e4f9.css",
+    "main.js": "/static/js/main.96328b33.js",
     "static/media/tft-set.png": "/static/media/tft-set.340afca24552f8f2689a.png",
+    "static/media/movie_img.png": "/static/media/movie_img.6e59581508dc284b08e8.png",
+    "static/media/frisbee.png": "/static/media/frisbee.704aa94cbdc060515d2b.png",
+    "static/media/ton.png": "/static/media/ton.236f916be591bae368e0.png",
     "static/media/wii.png": "/static/media/wii.0bff6a0fc2b296fe039e.png",
     "static/media/spotcase.png": "/static/media/spotcase.d4aca9937a35a46dd1ad.png",
+    "static/media/whirli.png": "/static/media/whirli.e4cbe5456a861a77c3eb.png",
+    "static/media/claptrap.png": "/static/media/claptrap.6eae8b3e824cbd17dea9.png",
     "static/media/quest.png": "/static/media/quest.2fbb3974b03d620a88f4.png",
     "static/media/box_unopened_tp.png": "/static/media/box_unopened_tp.6e88801e73c17bf6d4e4.png",
     "static/media/cartridge_dark_tp.png": "/static/media/cartridge_dark_tp.bf909b65c4a686c4c1bb.png",
@@ -17,18 +22,18 @@
     "static/media/fridge_overflow.png": "/static/media/fridge_overflow.c31822da645072fda203.png",
     "static/media/shelf_overflow.png": "/static/media/shelf_overflow.739561519d23bfff8f77.png",
     "static/media/cartridge_overflow.png": "/static/media/cartridge_overflow.32a598435c93bc605bd1.png",
-    "static/media/whirligig.jpg": "/static/media/whirligig.45fd72f8314e806ac7bd.jpg",
     "static/media/cartridge_default_tp.png": "/static/media/cartridge_default_tp.e9819ad8a19488ffa63e.png",
     "static/media/box_unopened.png": "/static/media/box_unopened.74c511a5a28fd2692dc0.png",
     "static/media/shelf_default.png": "/static/media/shelf_default.6b4e3dd9d045bd389fef.png",
+    "static/media/wsib.png": "/static/media/wsib.5b8293daed5685b75de7.png",
     "static/media/fridge_unopened.png": "/static/media/fridge_unopened.bc39e2153da0871814e9.png",
     "static/media/cartridge_default.png": "/static/media/cartridge_default.595c0f13d80141de752f.png",
     "index.html": "/index.html",
-    "main.7ba51a58.css.map": "/static/css/main.7ba51a58.css.map",
-    "main.a3faa3bb.js.map": "/static/js/main.a3faa3bb.js.map"
+    "main.6d43e4f9.css.map": "/static/css/main.6d43e4f9.css.map",
+    "main.96328b33.js.map": "/static/js/main.96328b33.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ba51a58.css",
-    "static/js/main.a3faa3bb.js"
+    "static/css/main.6d43e4f9.css",
+    "static/js/main.96328b33.js"
   ]
 }
