@@ -9,7 +9,7 @@ import frisbeeImg from "../assets/frisbee.png";
 const Photos = () => {
   return (
     <div className="w-full bg-default">
-      <div className="text-kinda-white mx-48 place-items-center text-center">
+      <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">
         <h1 className="w-full font-sans font-light text-3xl md:text-4xl py-9">
           unfortunately, i don’t have any food, but maybe i have something
           better.

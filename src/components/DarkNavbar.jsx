@@ -49,24 +49,30 @@ export const DarkNavbar = () => {
         </div>
       </div>
       <ul className={!nav ? "hidden" : "absolute w-full px-8 bg-black"}>
-        <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
-          <Link to="/product">projects</Link>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
-          <a
-            href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
+        <Link to="/product">
+          <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
+            projects
+          </li>
+        </Link>
+        <a
+          href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
             resume
-          </a>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
-          fridge <Link to="/fridge">fridge</Link>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
-          <Link to="/about">about</Link>
-        </li>
+          </li>
+        </a>
+        <Link to="/fridge">
+          <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
+            fridge
+          </li>
+        </Link>
+        <Link to="/about">
+          <li className="border-b-2 border-zinc-300 w-full font-heading text-lg text-kinda-white hover:text-hover-purple hover:cursor-pointer">
+            about
+          </li>
+        </Link>
       </ul>
     </div>
   );
