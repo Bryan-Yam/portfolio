@@ -21,54 +21,67 @@ const Games = () => {
             SELECT A SAVE
           </h1>
         </div>
-        <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300 cursor-pointer">
-          <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
-            <img
-              className="rounded-md border border-kinda-black"
-              src={tftImg}
-              alt="/"
-            />
+        <a
+          href="https://marmalade-catcher-f3f.notion.site/Teamfight-Tactics-analyzing-information-flow-a-case-study-353bdf91a806462f82f0c97a4feb8efa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300 cursor-pointer">
+            <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
+              <img
+                className="rounded-md border border-kinda-black"
+                src={tftImg}
+                alt="/"
+              />
+            </div>
+            <div className="md:pl-10 p-5 w-full">
+              <p className="text-3xl text-ice-blue pb-4">
+                File 1 - Teamfight Tactics: Damage Numbers
+              </p>
+              <p className="text-kinda-gray text-xl pb-6">
+                Last Save: August 2022
+              </p>
+              <p className="text-kinda-gray pb-12">
+                Apex Legends has a lot of interactions, this save looks at how
+                we might simplify
+              </p>
+              <p className="text-kinda-gray font-sans">
+                Tags: Auto Chess, Figma, GIMP, Strategy, User Flows
+              </p>
+            </div>
           </div>
-          <div className="md:pl-10 p-5 w-full">
-            <p className="text-3xl text-ice-blue pb-4">
-              File 1 - Teamfight Tactics: Damage Numbers
-            </p>
-            <p className="text-kinda-gray text-xl pb-6">
-              Last Save: August 2022
-            </p>
-            <p className="text-kinda-gray pb-12">
-              Apex Legends has a lot of interactions, this save looks at how we
-              might simplify
-            </p>
-            <p className="text-kinda-gray font-sans">
-              Tags: Battle Royale, FPS, User Experience, Multiplayer, User Flows
-            </p>
+        </a>
+        <a
+          href="https://marmalade-catcher-f3f.notion.site/Apex-Legends-an-interaction-system-case-study-7873e1ca91134bf88d1f237e133dc493"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="cursor-pointer grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+            <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
+              <img
+                className="rounded-md border border-kinda-black"
+                src={apexImg}
+                alt="/"
+              />
+            </div>
+            <div className="md:pl-10 p-5 w-full">
+              <p className="text-3xl text-ice-blue pb-4">
+                File 2 - Apex Legends: Interaction Systems
+              </p>
+              <p className="text-kinda-gray text-xl pb-6">
+                Last Save: July 2022
+              </p>
+              <p className="text-kinda-gray pb-12">
+                Apex Legends has a lot of interactions, but is there a way to
+                make them even better?
+              </p>
+              <p className="text-kinda-gray font-sans">
+                Tags: Battle Royale, FPS, User Experience, Multiplayer, Systems
+                Thinking
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="cursor-pointer grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
-          <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
-            <img
-              className="rounded-md border border-kinda-black"
-              src={apexImg}
-              alt="/"
-            />
-          </div>
-          <div className="md:pl-10 p-5 w-full">
-            <p className="text-3xl text-ice-blue pb-4">
-              File 2 - Apex Legends: Interaction Systems
-            </p>
-            <p className="text-kinda-gray text-xl pb-6">
-              Last Save: August 2022
-            </p>
-            <p className="text-kinda-gray pb-12">
-              Apex Legends has a lot of interactions, but is there a way to make
-              them even better?
-            </p>
-            <p className="text-kinda-gray font-sans">
-              Tags: Battle Royale, FPS, User Experience, Multiplayer, User Flows
-            </p>
-          </div>
-        </div>
+        </a>
         <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-4 ">
           <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
             <img
@@ -89,7 +102,8 @@ const Games = () => {
               soon)
             </p>
             <p className="text-kinda-gray font-sans">
-              Tags: Auto Chess, Game Design, Strategy, Iconography
+              Tags: Auto Chess, Game Design, Strategy, Iconography, Product
+              Thinking, GIMP
             </p>
           </div>
         </div>

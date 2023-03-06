@@ -1,7 +1,10 @@
 import React from "react";
 import WiiImg from "../assets/wii.png";
 import SpotifyImg from "../assets/spot.png";
-import WhirliImg from "../assets/whirligig.jpg";
+import tonImg from "../assets/ton.png";
+import claptrapImg from "../assets/claptrap.png";
+import WhirliImg from "../assets/whirli.png";
+import frisbeeImg from "../assets/frisbee.png";
 
 const Photos = () => {
   return (
@@ -30,11 +33,11 @@ const Photos = () => {
         <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
           <div>
             <div className="place-content-center flex p-4">
-              <img src={SpotifyImg} alt="/" />
+              <img src={claptrapImg} alt="/" />
             </div>
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
-                i have a lot of Spotify minut
+                model of Claptrap from Borderlands
               </p>
             </div>
           </div>
@@ -59,6 +62,30 @@ const Photos = () => {
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
                 this is the thing that spins in the wind
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+          <div>
+            <div className="place-content-center flex p-4">
+              <img src={tonImg} alt="/" />
+            </div>
+            <div>
+              <p className="text-2xl font-handwriting text-center w-full p-2">
+                my friend bit my tonkatsu
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+          <div>
+            <div className="place-content-center flex p-4">
+              <img src={frisbeeImg} alt="/" />
+            </div>
+            <div>
+              <p className="text-2xl font-handwriting text-center w-full p-2">
+                frisbee adventures
               </p>
             </div>
           </div>

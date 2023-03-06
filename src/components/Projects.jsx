@@ -1,5 +1,7 @@
 import React from "react";
 import questImg from "../assets/quest.png";
+import wsibImg from "../assets/wsib.png";
+import movieImg from "../assets/movie_img.png";
 import spotcaseImg from "../assets/spotcase.png";
 import gameImg from "../assets/cartridge_default_tp.png";
 import overflowgameImg from "../assets/cartridge_dark_tp.png";
@@ -15,30 +17,42 @@ const Projects = () => {
         </h1>
       </div>
       <div className="grid pb-10 lg:pb-0 place-content-center lg:flex lg:justify-between mx-20 lg:mx-80 md:mx-40">
-        <div className="group rounded-full relative cursor-pointer overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
-            <img
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
-              src={questImg}
-              alt=""
-            />
+        <a
+          href="https://marmalade-catcher-f3f.notion.site/Quest-Redesign-591d1395186b489b85864d392fe1218f"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="group rounded-full relative cursor-pointer overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
+              <img
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                src={questImg}
+                alt=""
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
+            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 className="font-sans text-2xl md:text-3xl pb-5 md:pb-24 text-kinda-white">
+                Quest Redesign
+              </h1>
+              <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Simplifying Waterloo's student info platform
+              </p>
+              <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Figma, hi-fi prototyping, UXR, accessible design
+              </p>
+              <div className="rounded-full border border-transparent bg-neutral-900 py-2 px-3.5 font-custom text-sm text-kinda-white shadow shadow-black/60 border-zinc-50 hover:bg-transparent hover:border-kinda-white">
+                <a
+                  href="https://marmalade-catcher-f3f.notion.site/Quest-Redesign-591d1395186b489b85864d392fe1218f"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  See More
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
-          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h1 className="font-sans text-2xl md:text-3xl pb-5 md:pb-24 text-kinda-white">
-              Quest Redesign
-            </h1>
-            <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Simplifying Waterloo's student info platform
-            </p>
-            <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              hi-fi prototyping, UXR, accessible design
-            </p>
-            <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-custom text-sm text-white shadow shadow-black/60 border-zinc-50 hover:text-kinda-white">
-              See More
-            </button>
-          </div>
-        </div>
+        </a>
         <div className="lg:flex justify-center items-center hidden">
           <svg
             width="300"
@@ -157,56 +171,80 @@ const Projects = () => {
             </defs>
           </svg>
         </div>
-        <div className="group rounded-full relative cursor-pointer overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
-            <img
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
-              src={spotcaseImg}
-              alt=""
-            />
+        <a
+          href="https://marmalade-catcher-f3f.notion.site/Spotify-Mobile-a-case-study-976f077c017d4d528c822bb83c7615c3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="group rounded-full relative cursor-pointer overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
+              <img
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                src={spotcaseImg}
+                alt=""
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
+            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 className="font-sans text-2xl md:text-3xl pb-5 md:pb-24 text-kinda-white">
+                Spotify Mobile
+              </h1>
+              <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Scrolling mechanics and community features
+              </p>
+              <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Figma, hi-fi prototyping, UXR
+              </p>
+              <div className="rounded-full border border-transparent bg-neutral-900 py-2 px-3.5 font-custom text-sm text-kinda-white shadow shadow-black/60 border-zinc-50 hover:bg-transparent hover:border-kinda-white">
+                <a
+                  href="https://marmalade-catcher-f3f.notion.site/Spotify-Mobile-a-case-study-976f077c017d4d528c822bb83c7615c3"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  See More
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
-          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h1 className="font-sans text-2xl md:text-3xl pb-5 md:pb-24 text-kinda-white">
-              Spotify Mobile
-            </h1>
-            <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Simplifying Waterloo's student info platform
-            </p>
-            <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              hi-fi prototyping, UXR, accessible design
-            </p>
-            <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-custom text-sm text-white shadow shadow-black/60 border-zinc-50 hover:text-kinda-white">
-              See More
-            </button>
-          </div>
-        </div>
+        </a>
       </div>
       <div className="grid pb-10 lg:pb-0 place-content-center lg:flex lg:justify-between mx-20 lg:mx-80 md:mx-40">
-        <div className="group rounded-full relative cursor-pointer overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
-          <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
-            <img
-              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
-              src={questImg}
-              alt=""
-            />
+        <a
+          href="https://marmalade-catcher-f3f.notion.site/Movie-Theatre-Responsive-Design-949da19194f344819f7402bfb16c0d34"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="group rounded-full relative cursor-pointer overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
+            <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
+              <img
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+                src={movieImg}
+                alt=""
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
+            <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+              <h1 className="font-sans text-2xl md:text-2xl pb-5 md:pb-24 text-kinda-white">
+                Movie Theatre Mockups
+              </h1>
+              <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Designing theatre apps in Adobe XD
+              </p>
+              <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                lo-fi/hi-fi mockups, hi-fi prototyping, responsive design
+              </p>
+              <div className="rounded-full border border-transparent bg-neutral-900 py-2 px-3.5 font-custom text-sm text-kinda-white shadow shadow-black/60 border-zinc-50 hover:bg-transparent hover:border-kinda-white">
+                <a
+                  href="https://marmalade-catcher-f3f.notion.site/Movie-Theatre-Responsive-Design-949da19194f344819f7402bfb16c0d34"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  See More
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
-          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h1 className="font-sans text-2xl md:text-3xl pb-5 md:pb-24 text-kinda-white">
-              Quest Redesign
-            </h1>
-            <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              Simplifying Waterloo's student info platform
-            </p>
-            <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              hi-fi prototyping, UXR, accessible design
-            </p>
-            <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-custom text-sm text-white shadow shadow-black/60 border-zinc-50 hover:text-kinda-white">
-              See More
-            </button>
-          </div>
-        </div>
+        </a>
         <div className="lg:flex justify-center items-center hidden">
           <svg
             width="300"
@@ -264,6 +302,90 @@ const Projects = () => {
               </filter>
             </defs>
           </svg>
+        </div>
+      </div>
+      <div className="grid pb-10 lg:pb-0 place-content-center lg:flex lg:justify-between mx-20 lg:mx-80 md:mx-40">
+        <div className="lg:flex justify-center items-center hidden">
+          <svg
+            width="300"
+            height="300"
+            viewBox="0 0 192 154"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_d_76_2)">
+              <path
+                d="M185 78.2022C178.995 70.7678 164.126 54.7551 152.975 48.4645L146.112 51.2095L162.983 3L79.7741 56.7567L73.4834 77.7789L59.1864 82.9651L7.14534 11.0063L44.1746 85.3507H35.7393L4 127.384L102.935 139.393L118.376 147.114C120.654 141.698 123.462 134.868 126.452 127.384L132.387 137.964C132.845 136.591 147.447 86.9307 154.69 62.2721C164.021 68.8708 177.193 75.2282 185 78.2022Z"
+                fill="black"
+              />
+              <path
+                d="M185 78.2022C178.995 70.7678 164.126 54.7551 152.975 48.4645L146.112 51.2095M185 78.2022C168.987 63.7908 149.829 51.7814 144.682 51.7814M185 78.2022C177.193 75.2282 164.021 68.8708 154.69 62.2721M144.397 51.8957L144.682 51.7814M144.397 51.8957C145.242 53.8859 147.073 56.0384 149.543 58.2355M144.397 51.8957L112.657 105.113M144.682 51.7814L146.112 51.2095M106.367 115.66L116.66 130.529M106.367 115.66L112.657 105.113M106.367 115.66L81.7757 74.7709M116.66 130.529L118.376 147.114M116.66 130.529L79.7741 113.373M116.66 130.529L102.935 139.393M118.376 147.114C120.654 141.698 123.462 134.868 126.452 127.384M118.376 147.114L102.935 139.393M149.543 58.2355C151.048 59.5733 152.789 60.9277 154.69 62.2721M149.543 58.2355C148.837 69.0438 136.598 101.984 126.452 127.384M154.69 62.2721C147.447 86.9307 132.845 136.591 132.387 137.964L126.452 127.384M162.983 3L146.112 51.2095M162.983 3L102.935 95.3586M162.983 3L79.7741 56.7567L73.4834 77.7789M102.935 95.3586L112.657 105.113M102.935 95.3586L81.7757 74.7709M81.7757 74.7709L73.4834 77.7789M52.6098 85.3507L79.7741 113.373M52.6098 85.3507H44.1746M52.6098 85.3507L59.1864 82.9651M79.7741 113.373L4 127.384M4 127.384L102.935 139.393M4 127.384L35.7393 85.3507H44.1746M44.1746 85.3507L7.14534 11.0063L59.1864 82.9651M59.1864 82.9651L73.4834 77.7789"
+                stroke="#424242"
+                strokeWidth="2.28752"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_d_76_2"
+                x="0.174985"
+                y="0.229004"
+                width="191.235"
+                height="153.029"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dx="0.57188" dy="2.28752" />
+                <feGaussianBlur stdDeviation="1.14376" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.72 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_76_2"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_76_2"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div className="group rounded-full relative overflow-hidden drop-shadow-3xl transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <div className="h-[250px] w-[250px] md:h-[500px] md:w-[500px]">
+            <img
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-125"
+              src={wsibImg}
+              alt=""
+            />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/80"></div>
+          <div className="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+            <h1 className="font-sans text-2xl md:text-3xl pb-5 md:pb-24 text-kinda-white">
+              WSIB Innovation Lab
+            </h1>
+            <p className="mb-3 text-sm md:text-xl italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              Coming soon!
+            </p>
+            <p className="mb-3 text-xs md:text-lg italic text-text-purple opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              Figma, UXR, Branding
+            </p>
+            <div className="rounded-full border border-transparent bg-neutral-900 py-2 px-3.5 font-custom text-sm text-kinda-white shadow shadow-black/60 border-zinc-50 hover:bg-transparent hover:border-kinda-white">
+              See More
+            </div>
+          </div>
         </div>
       </div>
       <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">

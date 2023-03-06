@@ -55,8 +55,11 @@ const BookSection = () => {
             What inspired/how did you make your website?
           </p>
           <p className="font-sans pb-4 text-md">
-            asdwad. As for how it was made, all the designs and artwork were
-            done in Figma, and it's built using React and Tailwind CSS.
+            As cliché as it sounds, I just wanted to include things that I
+            thought made me, me. I started with the idea of having a box with
+            all my stuff in it, and it kind of went from there. As for how it
+            was made, all the designs and artwork were done in Figma, and it's
+            built using React and Tailwind CSS.
           </p>
           <p className="font-sans pb-2 text-lg"> What's your favourite game?</p>
           <p className="font-sans pb-4 text-md">
