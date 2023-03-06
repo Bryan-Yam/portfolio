@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/portfolio" element={<LandingPage />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/product" element={<ProjectsPage />} />
         <Route path="/games" element={<GamesPage />} />

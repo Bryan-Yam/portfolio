@@ -10,7 +10,7 @@ export const DarkNavbar = () => {
       <div className="px-16 flex justify-start items-center w-full h-full">
         <div className="flex items-center w-full">
           <div className="hover:cursor-pointer">
-            <Link to="/portfolio">
+            <Link to="/">
               <span className="text-5xl mr-2 sm:text-5xl font-heading text-kinda-white">
                 bryan
               </span>

@@ -21,7 +21,7 @@ const Games = () => {
             SELECT A SAVE
           </h1>
         </div>
-        <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+        <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300 cursor-pointer">
           <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
             <img
               className="rounded-md border border-kinda-black"
@@ -45,7 +45,7 @@ const Games = () => {
             </p>
           </div>
         </div>
-        <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+        <div className="cursor-pointer grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
           <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
             <img
               className="rounded-md border border-kinda-black"

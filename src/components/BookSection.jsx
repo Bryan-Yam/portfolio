@@ -34,9 +34,8 @@ const BookSection = () => {
             that I really enjoy.
           </p>
           <p className="text-left text-md pb-4 font-sans">
-            Outside of designing things, I play a lot of sports (ultimate
-            frisbee competitvely), I really enjoy listening to music, and
-            playing video games. Other hobbies include origami and cooking.
+            Outside of designing things, I play a lot of sports and video games.
+            I also really enjoy listening to music, doing origami and cooking.
           </p>
           <img src={profileImg} alt="/"></img>
           <p className="w-full">
@@ -55,7 +54,10 @@ const BookSection = () => {
           <p className="font-sans pb-2 text-lg">
             What inspired/how did you make your website?
           </p>
-          <p className="font-sans pb-4 text-md">asdwad</p>
+          <p className="font-sans pb-4 text-md">
+            asdwad. As for how it was made, all the designs and artwork were
+            done in Figma, and it's built using React and Tailwind CSS.
+          </p>
           <p className="font-sans pb-2 text-lg"> What's your favourite game?</p>
           <p className="font-sans pb-4 text-md">
             Childhood me would say Pokemon Emerald. You may think it's Teamfight

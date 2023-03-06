@@ -1,6 +1,7 @@
 import React from "react";
 import WiiImg from "../assets/wii.png";
 import SpotifyImg from "../assets/spot.png";
+import WhirliImg from "../assets/whirligig.jpg";
 
 const Photos = () => {
   return (
@@ -45,7 +46,7 @@ const Photos = () => {
             </div>
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
-                i have a lot of Spotify minutes
+                my perfect game of Wii Sports bowling
               </p>
             </div>
           </div>
@@ -53,11 +54,11 @@ const Photos = () => {
         <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
           <div>
             <div className="place-content-center flex p-4">
-              <img src={SpotifyImg} alt="/" />
+              <img src={WhirliImg} alt="/" />
             </div>
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
-                i have a lot of Spotify minutes
+                this is the thing that spins in the wind
               </p>
             </div>
           </div>
