@@ -8,14 +8,21 @@ const DeletingText = () => {
         options={{
           skipAddStyles: true,
           strings: [
-            "i wonder what's in the box?",
-            "wow, it's a mess in here",
-            "if you're reading this, please click an object",
+            "click an object to get started",
+            "each one has a little hover too!",
+            "you can also use the navbar",
+            "or you can keep reading this text",
+            "regardless, thanks for visiting my website",
+            "i really appreciate it",
             "this is the last line",
             "okay, i lied",
+            "seriously though, this is the last one",
           ],
           autoStart: true,
           loop: true,
+          delay: 10,
+          deleteSpeed: 20,
+          pauseFor: 1400,
         }}
       />
     </div>

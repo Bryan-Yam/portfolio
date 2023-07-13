@@ -1,26 +1,21 @@
 import React from "react";
-import WiiImg from "../assets/wii.png";
-import SpotifyImg from "../assets/spot.png";
-import tonImg from "../assets/ton.png";
-import claptrapImg from "../assets/claptrap.png";
-import WhirliImg from "../assets/whirli.png";
-import frisbeeImg from "../assets/frisbee.png";
+import WiiImg from "../assets/Fridge/wii.png";
+import SpotifyImg from "../assets/Fridge/spot.png";
+import tonImg from "../assets/Fridge/ton.png";
+import claptrapImg from "../assets/Fridge/claptrap.png";
+import WhirliImg from "../assets/Fridge/whirli.png";
+import frisbeeImg from "../assets/Fridge/frisbee.png";
 
 const Photos = () => {
   return (
-    <div className="w-full bg-default">
-      <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">
-        <h1 className="w-full font-sans font-light text-3xl md:text-4xl py-9">
-          unfortunately, i don’t have any food, but maybe i have something
-          better.
+    <div className="w-full bg-default-bg">
+      <div className="text-kinda-white mx-6 md:mx-16 lg:mx-32 place-items-center text-center">
+        <h1 className="w-full font-headers text-2xl md:text-3xl lg:text-4xl py-9">
+          like all great fridges, take a look at what's pinned on it.
         </h1>
-        <p className="w-full font-sans font-light text-xl md:text-2xl pb-12">
-          like all great fridges, take a look at some achievements that couldn’t
-          make the cut anywhere else.
-        </p>
       </div>
-      <div className="grid gap-10 md:grid-cols-3 w-full">
-        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+      <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 mx-6 mt-6 md:mt-10 lg:mt-16 md:mx-16 lg:mx-32">
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 mx-12 py-3 h-fit drop-shadow-2xl">
           <div className="place-content-center flex p-4">
             <img src={SpotifyImg} alt="/" />
           </div>
@@ -30,7 +25,7 @@ const Photos = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 mx-12 py-3 h-fit drop-shadow-2xl">
           <div>
             <div className="place-content-center flex p-4">
               <img src={claptrapImg} alt="/" />
@@ -42,31 +37,31 @@ const Photos = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 mx-12 py-3 h-fit drop-shadow-2xl">
           <div>
             <div className="place-content-center flex p-4">
               <img src={WiiImg} alt="/" />
             </div>
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
-                my perfect game of Wii Sports bowling
+                the closest i'll get to a perfect bowling game
               </p>
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 mx-12 py-3 h-fit drop-shadow-2xl">
           <div>
             <div className="place-content-center flex p-4">
               <img src={WhirliImg} alt="/" />
             </div>
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
-                this is the thing that spins in the wind
+                it's like a fan, but with extra steps
               </p>
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 mx-12 py-3 h-fit drop-shadow-2xl">
           <div>
             <div className="place-content-center flex p-4">
               <img src={tonImg} alt="/" />
@@ -78,7 +73,7 @@ const Photos = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 bg-opacity-80 backdrop-filter backdrop-blur-sm mx-12 py-3 h-fit drop-shadow-3xl">
+        <div className="bg-gradient-to-tr from-slate-50 via-gray-300 to-zinc-50 mx-12 py-3 h-fit drop-shadow-2xl">
           <div>
             <div className="place-content-center flex p-4">
               <img src={frisbeeImg} alt="/" />

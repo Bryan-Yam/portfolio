@@ -1,6 +1,6 @@
 import React from "react";
+import DarkNavbar from "../DarkNavbar";
 import BookSection from "../BookSection";
-import { DarkNavbar } from "../DarkNavbar";
 import Footer from "../Footer";
 
 const About = () => {

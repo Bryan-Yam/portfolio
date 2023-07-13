@@ -1,5 +1,5 @@
 import React from "react";
-import apexImg from "../assets/apex.png";
+import apexImg from "../assets/Apex/apex.png";
 import tftImg from "../assets/tft-case.png";
 import setImg from "../assets/tft-set.png";
 import unboxImg from "../assets/box_unopened_tp.png";
@@ -8,25 +8,20 @@ import { Link } from "react-router-dom";
 
 const Games = () => {
   return (
-    <div className="bg-default min-h-screen md:px-48 px-10">
+    <div className="bg-default-bg min-h-screen md:px-48 px-10">
       <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">
-        <h1 className="w-full font-sans font-light text-3xl md:text-4xl py-9">
-          thanks for picking up my game, why don't you load it up and see what's
-          on it?
+        <h1 className="font-headers font-normal text-2xl md:text-3xl lg:text-4xl py-9">
+          thanks for picking up my game, feel free to load up a save.
         </h1>
       </div>
-      <div className="w-full pb-5 md:pb-10 rounded-3xl bg-kinda-white">
+      <div className="w-full mt-6 md:mt-10 lg:mt-16 pb-5 md:pb-10 rounded-3xl bg-game-bg">
         <div>
-          <h1 className="font-custom text-kinda-black text-center py-10 text-3xl md:text-4xl animate-pulse">
+          <h1 className="font-heading text-kinda-white text-center py-10 text-3xl md:text-4xl">
             SELECT A SAVE
           </h1>
         </div>
-        <a
-          href="https://marmalade-catcher-f3f.notion.site/Teamfight-Tactics-analyzing-information-flow-a-case-study-353bdf91a806462f82f0c97a4feb8efa"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300 cursor-pointer">
+        <Link to="/damagenumbers">
+          <div className="cursor-pointer grid md:flex border-4 bg-default-bg text-hover-purple text-opacity-60 hover:text-opacity-90 border-hover-purple border-opacity-40 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
             <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
               <img
                 className="rounded-md border border-kinda-black"
@@ -35,7 +30,7 @@ const Games = () => {
               />
             </div>
             <div className="md:pl-10 p-5 w-full">
-              <p className="text-3xl text-ice-blue pb-4">
+              <p className="text-3xl pb-4">
                 File 1 - Teamfight Tactics: Damage Numbers
               </p>
               <p className="text-kinda-gray text-xl pb-6">
@@ -50,13 +45,9 @@ const Games = () => {
               </p>
             </div>
           </div>
-        </a>
-        <a
-          href="https://marmalade-catcher-f3f.notion.site/Apex-Legends-an-interaction-system-case-study-7873e1ca91134bf88d1f237e133dc493"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="cursor-pointer grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+        </Link>
+        <Link to="/apex">
+          <div className="cursor-pointer grid md:flex border-4 bg-default-bg border-hover-purple text-hover-purple text-opacity-60 hover:text-opacity-90 border-opacity-40 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
             <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
               <img
                 className="rounded-md border border-kinda-black"
@@ -65,7 +56,7 @@ const Games = () => {
               />
             </div>
             <div className="md:pl-10 p-5 w-full">
-              <p className="text-3xl text-ice-blue pb-4">
+              <p className="text-3xl pb-4">
                 File 2 - Apex Legends: Interaction Systems
               </p>
               <p className="text-kinda-gray text-xl pb-6">
@@ -81,32 +72,33 @@ const Games = () => {
               </p>
             </div>
           </div>
-        </a>
-        <div className="grid md:flex border-4 bg-french-gray border-kinda-black mx-5 md:mx-16 rounded-lg place-items-center mb-4 ">
-          <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
-            <img
-              className="rounded-md border border-kinda-black"
-              src={setImg}
-              alt="/"
-            />
+        </Link>
+        <Link to="/setdesign">
+          <div className="cursor-pointer grid md:flex border-4 bg-default-bg border-hover-purple border-opacity-40 text-hover-purple text-opacity-60 hover:text-opacity-90 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+            <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
+              <img
+                className="rounded-md border border-kinda-black"
+                src={setImg}
+                alt="/"
+              />
+            </div>
+            <div className="md:pl-10 p-5 w-full">
+              <p className="text-3xl pb-4">
+                File 3 - Teamfight Tactics: Set Concept
+              </p>
+              <p className="text-kinda-gray text-xl pb-6">
+                Last Save: August 2022
+              </p>
+              <p className="text-kinda-gray pb-12">
+                Designing a new TFT set concept called "Into the Wilderness".
+              </p>
+              <p className="text-kinda-gray font-sans">
+                Tags: Auto Chess, Game Design, Strategy, Iconography, Product
+                Thinking, GIMP
+              </p>
+            </div>
           </div>
-          <div className="md:pl-10 p-5 w-full">
-            <p className="text-3xl text-ice-blue pb-4">
-              File 3 - Teamfight Tactics: Set Concept
-            </p>
-            <p className="text-kinda-gray text-xl pb-6">
-              Last Save: August 2022
-            </p>
-            <p className="text-kinda-gray pb-12">
-              Designing a new TFT set concept. ERROR: file corrupted (coming
-              soon)
-            </p>
-            <p className="text-kinda-gray font-sans">
-              Tags: Auto Chess, Game Design, Strategy, Iconography, Product
-              Thinking, GIMP
-            </p>
-          </div>
-        </div>
+        </Link>
       </div>
       <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">
         <h1 className="w-full font-sans font-light text-2xl md:text-3xl py-9">

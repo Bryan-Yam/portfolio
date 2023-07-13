@@ -4,6 +4,14 @@ import GamesPage from "./components/pages/GamesPage";
 import LandingPage from "./components/pages/LandingPage";
 import ProjectsPage from "./components/pages/ProjectsPage";
 import { Route, Routes } from "react-router-dom";
+import RebrandPage from "./components/pages/RebrandPage";
+import ApexPage from "./components/pages/ApexPage";
+import QuestPage from "./components/pages/QuestPage";
+import TFTSetPage from "./components/pages/TFTSetPage";
+import TFTDamagePage from "./components/pages/TFTDamagePage";
+import SpotifyPage from "./components/pages/SpotifyPage";
+import DRDCPage from "./components/pages/DRDCPage";
+import CRMPage from "./components/pages/CRMPage";
 
 function App() {
   return (
@@ -15,6 +23,14 @@ function App() {
         <Route path="/games" element={<GamesPage />} />
         <Route path="/fridge" element={<FridgePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/rebrand" element={<RebrandPage />} />
+        <Route path="/apex" element={<ApexPage />} />
+        <Route path="/setdesign" element={<TFTSetPage />} />
+        <Route path="/quest" element={<QuestPage />} />
+        <Route path="/damagenumbers" element={<TFTDamagePage />} />
+        <Route path="/spotify" element={<SpotifyPage />} />
+        <Route path="/drdc" element={<DRDCPage />} />
+        <Route path="/crm" element={<CRMPage />} />
       </Routes>
     </>
   );

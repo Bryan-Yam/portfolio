@@ -3,8 +3,8 @@ import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
 const Footer = () => {
   return (
-    <div className="text-kinda-white bg-black w-full text-center p-3 font-custom text-lg items-center h-auto pt-20 pb-10">
-      <p className="font-sans font-light text-xl pb-1">
+    <div className="text-kinda-white bg-default-bg w-full text-center p-3 font-custom text-lg items-center h-auto pt-20 pb-10">
+      <p className="font-headers font-light text-xl pb-3">
         designed and created by bryan
       </p>
       <div className="flex w-full place-content-center gap-5">

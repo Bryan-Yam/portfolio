@@ -1,22 +1,22 @@
 import React from "react";
 
-import unboxImg from "../assets/box_unopened.png";
-import overflowboxImg from "../assets/box_overflow.png";
-import paperImg from "../assets/paper.png";
-import craneImg from "../assets/crane.png";
-import gameImg from "../assets/cartridge_default.png";
-import overflowgameImg from "../assets/cartridge_overflow.png";
-import unfridgeImg from "../assets/fridge_unopened.png";
-import overflowfridgeImg from "../assets/fridge_overflow.png";
-import shelfImg from "../assets/shelf_default.png";
-import bookshelfImg from "../assets/shelf_overflow.png";
+import unboxImg from "../assets/Landing/box_unopened.png";
+import overflowboxImg from "../assets/Landing/box_overflow.png";
+import paperImg from "../assets/Landing/paper.png";
+import craneImg from "../assets/Landing/crane.png";
+import gameImg from "../assets/Landing/cartridge_default.png";
+import overflowgameImg from "../assets/Landing/cartridge_overflow.png";
+import unfridgeImg from "../assets/Landing/fridge_unopened.png";
+import overflowfridgeImg from "../assets/Landing/fridge_overflow.png";
+import shelfImg from "../assets/Landing/shelf_default.png";
+import bookshelfImg from "../assets/Landing/shelf_overflow.png";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
     <div className="flex w-full h-full relative z-10">
       <div className="grid md:grid-cols-[18%_12%_40%_12%_18%] w-full h-full place-items-center">
-        <div className="pb-48 grid place-items-center">
+        <div className="md:pb-48 pb-20 grid place-items-center">
           <div className="group relative cursor-pointer">
             <Link to="/fridge">
               <div className="z-10 transition-opacity duration-1000 ease-in-out group-hover:opacity-0">
@@ -28,7 +28,7 @@ const Landing = () => {
             </Link>
           </div>
         </div>
-        <div className="grid h-full place-items-end">
+        <div className="md:pb-0 pb-10 grid h-full place-items-end">
           <div className="group relative cursor-pointer">
             <Link to="/games">
               <div className="transition-opacity duration-1000 ease-in-out group-hover:opacity-0">
@@ -52,7 +52,7 @@ const Landing = () => {
             </Link>
           </div>
         </div>
-        <div className="grid h-full place-items-end">
+        <div className="md:pb-0 pb-10 grid h-full place-items-end">
           <div className="group relative cursor-pointer">
             <a
               href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"

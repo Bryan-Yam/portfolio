@@ -3,17 +3,19 @@ import profileImg from "../assets/profilepic.jpg";
 
 const BookSection = () => {
   return (
-    <div className="w-full bg-default">
-      <div className="text-kinda-white mx-10 md:mx-48 place-items-center text-center">
-        <h1 className="w-full font-sans font-light text-3xl md:text-4xl py-9">
-          thanks for picking up my book, feel free to take a glance through it
+    <div className="w-full bg-default-bg">
+      <div className="text-kinda-white mx-6 md:mx-16 lg:mx-32 place-items-center text-center">
+        <h1 className="font-headers text-2xl md:text-3xl lg:text-4xl py-9">
+          thanks for picking up my book, feel free to take a glance through it.
         </h1>
       </div>
-      <div className="text-kinda-white border-4 border-zinc-300 mx-10 md:mx-32 grid md:grid-cols-2 gap-x-8 bg-black">
-        <div className="w-full h-full border-zinc-300 p-10 md:border-r-2 border-b-2 md:border-b-0  bg-kinda-black">
+      <div className="text-kinda-white border-4 border-zinc-300 mt-6 md:mt-10 lg:mt-16 lg:mx-32 mx-6 md:mx-10 grid custom:grid-cols-2 gap-x-8">
+        <div className="w-full h-full border-zinc-300 p-10 md:border-r-2 border-b-2 md:border-b-0  bg-book-bg">
           <div className="grid grid-cols-[10%_90%] place-items-center">
             <h1 className="w-full text-left pb-4">903</h1>
-            <h1 className="w-full text-center pb-4 italic">Autobiography</h1>
+            <h1 className="w-full text-center pb-4 italic">
+              The Difference Between Sweet Potatoes and Yams
+            </h1>
           </div>
           <h1 className="text-left text-2xl pb-4 font-sans">
             Hi there, I'm Bryan!
@@ -24,11 +26,11 @@ const BookSection = () => {
           </h1>
           <p className="text-left text-md pb-4 font-sans">
             I like leveraging design tools to create meaningful experiences for
-            others. There's always been a euphoric and satisfying feeling when a
-            design feels right that I can't replicate anywhere else, so I enjoy
-            making things in hopes that others can achieve that feeling too.
-            Design can also uniquely connect people; it can elicit emotions from
-            people around the globe, non-verbally, and I find that aspect
+            others. There's always been a really satisfying feeling when a
+            design feels right that I can't seem to replicate anywhere else, so
+            I enjoy making things in hopes that others can achieve that feeling
+            too. Design also connects people; it can elicit emotions from people
+            around the globe, sometimes non-verbally, and I find that aspect
             fascinating. There's also a unique blend of technical
             problem-solving and creativity that UX design, in particular, brings
             that I really enjoy.
@@ -43,7 +45,7 @@ const BookSection = () => {
             the bad picture.
           </p>
         </div>
-        <div className="w-full h-full md:border-l-2 border-zinc-300 p-10 bg-kinda-black">
+        <div className="w-full h-full md:border-l-2 border-zinc-300 p-10 bg-book-bg">
           <div className="grid grid-cols-[90%_10%] place-items-center">
             <h1 className="w-full text-center pb-4 italic">Bryan Yam</h1>
             <h1 className="w-full text-right pb-4">904</h1>
@@ -77,7 +79,7 @@ const BookSection = () => {
             I wanted to go into engineering because I liked math and science
             (how naïve of high school me) and it had "design" in the name, so it
             felt like a pretty good match to me. I also had a friend in the
-            program who vouched for it.
+            program who vouched for it, and I was lucky enough to get accepted.
           </p>
           <p className="font-sans pb-2 text-lg">
             Do you like Systems Design Engineering?
@@ -87,9 +89,10 @@ const BookSection = () => {
             program that I am grateful I met and I have enjoyed the majority of
             the design courses. On the other hand, there are a bunch of courses
             you have to take purely because "engineering" is in the program
-            name, even though they don't relate to what most students tend to do
-            in the future. (like our single thermodynamics course, even though I
-            liked it, or linear algebra II, that one I did not like as much)
+            name, even though they don't really relate to what most students
+            tend to do in the future. (like our single thermodynamics course,
+            even though I liked it, or linear algebra II, which I did not like
+            as much)
           </p>
           <p className="font-sans pb-2 text-lg">
             Favourite course in university so far?
@@ -105,11 +108,14 @@ const BookSection = () => {
 
           <p>
             Can't find what you're looking for? Shoot me an
-            <a href="/" className="hover-pointer text-text-purple">
+            <a
+              href="mailto:b2yam@uwaterloo.ca"
+              className="hover-pointer text-text-purple"
+            >
               {" "}
               email
             </a>{" "}
-            and we can chat about it.
+            and we can chat about it!
           </p>
         </div>
       </div>
