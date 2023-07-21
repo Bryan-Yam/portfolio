@@ -1,4 +1,8 @@
 import React from "react";
+import topo from "../assets/DRDC/topo.png";
+import twothousand from "../assets/DRDC/2000.png";
+import land from "../assets/drdc.png";
+import comp from "../assets/DRDC/comp.png";
 
 const DRDC = () => {
   return (
@@ -23,7 +27,7 @@ const DRDC = () => {
               <span className="font-bold">Note:</span> Due to the sensitive
               nature of the visuals in this project, I won't be showing any
               images from the actual simulation. Instead, I created some
-              alternate visuals to help explain the process :).
+              alternate visuals using Figma to help explain the process :).
             </p>
           </div>
           <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
@@ -74,9 +78,12 @@ const DRDC = () => {
           </div>
         </div>
         <div className="mb-6 md:mb-10 lg:mb-16 bg-landing-project">
-          <div className="grid w-full items-center pb-4 md:pb-0 lg:pb-0">
-            <div className="flex place-content-center py-5">
-              <img className="w-[1200px] object-contain" src="/" alt="/" />
+          <div className="grid md:grid-cols-2 gap-5 w-full items-center pb-4 md:pb-0 lg:pb-0">
+            <div className="flex place-content-center py-5 px-16">
+              <img className="w-full object-contain" src={comp} alt="/" />
+            </div>
+            <div className="flex place-content-center py-5 px-16">
+              <img className="w-full object-contain" src={land} alt="/" />
             </div>
           </div>
         </div>
@@ -88,7 +95,7 @@ const DRDC = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               Getting up to speed to create "unity"
             </h1>
-            <p>
+            <p className="pb-5">
               When I joined the team, this project had been going on for about a
               year; most of the back-end was already developed, and my
               supervisors, the research scientists, had mapped out what they
@@ -99,9 +106,15 @@ const DRDC = () => {
             </p>
             <p>
               To get up to speed, I play-tested the current version of the
-              simulation, familiarized myself with the documentation and
-              research plan. Since we were running the experiment using VR
-              equipment, I also looked into different ...
+              simulation, and familiarized myself with the documentation and
+              research plan. Since we were running the experiment using VR, I
+              also setup some VR equipment so I could run tests on my designs
+              later on and see what the participants would see. The team set a
+              1km x 1km restriction for each level since our in-game model was
+              created to mimic a walking pace. Each level would have guide
+              markers for participants to follow as well as hidden targets that
+              would need to be identified as they progressed through the
+              terrain.
             </p>
           </div>
         </div>
@@ -111,7 +124,7 @@ const DRDC = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               Creating a game that looks straight from the early 2000's
             </h1>
-            <p>
+            <p className="pb-5">
               Now that I had the project fundamentals down, I started exploring
               my options for world building. I used free third party Unity
               assets alongside Unity's built-in terrain feature to create basic
@@ -122,10 +135,22 @@ const DRDC = () => {
               markers, different targets, and an overall path that each
               participant would follow.
             </p>
-            <p>img of different levels ig</p>
+            <div className="flex place-content-center pb-5">
+              <figure>
+                <img className="w-[800px]" src={twothousand} alt="/" />
+                <figcaption className="text-center text-sm">
+                  Figure 1. Image from Counter Strike that accurately represents
+                  the visuals of the lo-fi mockups
+                </figcaption>
+              </figure>
+            </div>
             <p>
               Since these were "lo-fi" designs, the main focus was on
-              functionality; making sure{" "}
+              functionality; making sure the game rendered all the different
+              environment aspects properly (my very first design had some
+              floating trees and places where you could fall of the map), and
+              that the built in data readers were getting accurate information
+              while users were walking through and completing tasks.
             </p>
           </div>
         </div>
@@ -135,11 +160,30 @@ const DRDC = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               Making the game look a bit more modern + research compatible
             </h1>
-            <p>
+            <p className="pb-5">
               After getting feedback from my supervisor, I started adding the
               final, more complex assets to replace the placeholder free ones I
-              had used to experiment.
+              had used to experiment. The most important piece of feedback I got
+              was to make sure my designs were standardized to ensure they
+              didn't influence the data. Most of my experience with military
+              scenarios came from video games, so my perception on what to
+              include in each level was very skewed. I definitely needed to tone
+              down some of the features in my designs, for example, for one of
+              the mockups I put a mountain to scale, but this would've led to
+              way too many variables to account for and I worked to scale back
+              any aspects that I thought would deter from the main objective of
+              the simulation, which was to accurately identify targets and
+              follow a set path.
             </p>
+            <div className="flex place-content-center pb-5">
+              <figure>
+                <img className="w-[800px]" src={twothousand} alt="/" />
+                <figcaption className="text-center text-sm">
+                  Figure 1. Image from Counter Strike that accurately represents
+                  the visuals of the lo-fi mockups
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-24 lg:mx-60">
@@ -148,27 +192,73 @@ const DRDC = () => {
               User Testing/Interviews
             </h2>
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
-              Learning the ins and outs from an actual reconnaissance soldier
+              Learning the ins and outs from actual reconnaissance soldiers
             </h1>
-            <p>
+            <p className="pb-5">
               Ideally, I would've done user interviews before I started
-              designing any levels, but since that wasn't possible Now that I
-              had ... I started exploring ...
+              designing any levels, but since that wasn't possible, I decided to
+              use these sessions as both a place to gather for information about
+              real field operations, as well as for usability testing. These
+              sessions were my favourite part about the project; not only did I
+              get a lot of great feedback about my designs and small nuances
+              that would help with the realism, but I also just learned a lot
+              about the field and how operations ran. There were a lot of really
+              cool stories and it definitely helped me not only understand the
+              physical environments they worked in, but also the psychological
+              aspects of missions too.
             </p>
-            <p>I had some experience with Unity before this co-op, but</p>
+            <div>
+              <p className="font-bold text-sm md:text-lg pb-2 w-full text-center">
+                Key Insights
+              </p>
+              <div className="grid">
+                <div className="flex justify-center">
+                  <div className="grid gap-2">
+                    <p>
+                      1. Movement is heavily based on the terrain; more cover is
+                      better
+                    </p>
+                    <p>
+                      2. Target distance is essential for realism; the larger
+                      the target, the further it should be
+                    </p>
+                    <p>
+                      3. Waypoint markers should be placed at an equal distance
+                      and within areas that are covered
+                    </p>
+                    <p>
+                      4. There are certain patterns that soldiers tend to follow
+                      in the field, using these patterns would increase realism
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-24 lg:mx-60">
           <div className="pb-4 md:pb-10 lg:pb-16">
             <h2 className="font-heading text-hover-purple">Hi-Fi Mockups</h2>
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
-              Adding the finishing touches and improving the realism
+              Adding the finishing touches
             </h1>
-            <p>
+            <p className="pb-5">
               After compiling all the great insights I received from the
               interviews/testing and creating a list of action items, I started
-              implementing them.
+              implementing them. I added some better tree line structure to
+              match the pathways; as you can imagine, if you're trying not to be
+              seen and looking for targets, using cover would be smart and
+              making the trial markers reflect that helped with the realism.
             </p>
+            <p className="pb-5">
+              The last major design addition was the ability to set
+              environmental factors. Using a Unity environment pack, I set up
+              some variables that could be adjusted to test each level at
+              different times of the day, and different types of weather. In
+              total, I designed 32 levels over 8 different terrain types; 4
+              different paths and target locations for each type of terrain.
+            </p>
+            <p> img</p>
           </div>
         </div>
         <div className="mx-6 md:mx-24 lg:mx-60">
@@ -177,11 +267,15 @@ const DRDC = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               VR testing with motion sickness is a blessing and a curse
             </h1>
-            <p>
-              Optimizing the simulation, was a bit painful. I looked at aspects
+            <p className="pb-5">
+              Optimizing the simulation was a bit painful. I looked at aspects
               like occlusion culling, level of detail (LOD) for meshes, render
               distances etc. to try and get the best frame rate possible while
-              still maintaining the integrity of each level.
+              still maintaining the visual integrity of each level. I had a few
+              things going on my side; the testing environment was using RTX
+              3090s, so the frame rates I was getting would be increased for the
+              actual simulation, I also incorporated fog to help lessen the
+              amount of objects that needed to be rendered.
             </p>
             <p>
               Since I get slight motion sickness from VR headsets, it meant a
@@ -189,7 +283,7 @@ const DRDC = () => {
               of different settings; which inevitably led to low frame rates and
               weird glitches, but in the end I was confident that if I could
               make it through a trial without my head spinning, it was good to
-              go.
+              go!
             </p>
           </div>
         </div>
@@ -204,13 +298,13 @@ const DRDC = () => {
               research scientists to create a topographic map which would be
               used within the minimap that was within the simulation.
             </p>
-            <p>
+            <p className="pb-5">
               Since the terrains for all the trials were created using Unity's
               built-in terrain tool, we were able to export the terrains into
               .raw files. These .raw files were then converted to .png files to
               be processed in MatLab.
             </p>
-            <p>
+            <p className="pb-5">
               Within Matlab, my supervisor processed the images into numbers
               referencing the "height" of each point in the image and we made a
               simple algorithm that parsed through the image, analyzing the
@@ -219,6 +313,45 @@ const DRDC = () => {
               for that height, and repeat on the next difference threshold. Each
               image was parsed through 4 times; one for each side, and then
               combined to create the final map.
+            </p>
+            <div className="flex place-content-center pb-5">
+              <figure>
+                <img className="w-[800px]" src={topo} alt="/" />
+                <figcaption className="text-center text-sm">
+                  Figure x. Processing the terrain into topographic maps
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div className="mx-6 md:mx-24 lg:mx-60">
+          <div className="pb-4 md:pb-10 lg:pb-16">
+            <h2 className="font-heading text-hover-purple">
+              Learnings and Reflection
+            </h2>
+            <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
+              Creating a user experience that doesn't compromise experimental
+              standardization
+            </h1>
+            <p>
+              One of the biggest challenges of designing game levels for
+              research purposes was the balance needed between user experience
+              and collecting good research data. In an ideal state, I would be
+              able to cater features to users but that would lead to the
+              addition of too many variables, potentially compromising the data.
+              This meant I had to find the sweet spot where the flow of the
+              simulation and its tasks were intuitive, and the data being
+              collected was also able to be used effectively and gather actual
+              results.
+            </p>
+            <p className="pb-5"></p>
+            <p className="pb-5">
+              The user interviews and testing were also an essential part to the
+              project, not only due to the great insights I received, but also
+              because of the empathy aspect. After the sessions, I felt like I
+              knew a lot more about the psychology around field operations and
+              thus did my best to make the experience as enjoyable as possible
+              while not breaking the immersion of the game.
             </p>
           </div>
         </div>

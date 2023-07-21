@@ -251,6 +251,21 @@ const Quest = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               Putting it all together to finish the "quest"
             </h1>
+            <div className="pb-5">
+              <p className="">
+                After compiling insights from the user journey walkthrough and
+                my preliminary research, I also mapped out the information
+                architecture of the site, as well as a baseline for the new
+                information architecture in the new design. My goal was to
+                reduce the amount of sections seen on the landing page and allow
+                users to navigate throughout the different sections, in
+                comparison to the current design where the sections are
+                distinctly separated. Next, I designed the basic components for
+                the mockups. I tried to incorporate the University of Waterloo's
+                typography and colours as much as possible in order to keep the
+                new design consistent with other websites.
+              </p>
+            </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-2 items-center gap-8 pr-4 pb-8 md:pb-12 lg:pb-18">
               <figure>
                 <img className="w-full object-contain" src={IA} alt="/" />
@@ -269,32 +284,6 @@ const Quest = () => {
                 </figcaption>
               </figure>
             </div>
-            <div className="pb-4 md:pb-8 lg:pb-12">
-              <p className="pb-4 md:pb-8 lg:pb-12">
-                After compiling insights from the user journey walkthrough and
-                my preliminary research, I also mapped out the information
-                architecture of the site, as well as a baseline for the new
-                information architecture in the new design. My goal was to
-                reduce the amount of sections seen on the landing page and allow
-                users to navigate throughout the different sections, in
-                comparison to the current design where the sections are
-                distinctly separated.
-              </p>
-              <p>
-                Next, I designed the basic components for the mockups. I tried
-                to incorporate the University of Waterloo's typography and
-                colours as much as possible in order to keep the new design
-                consistent with other websites.
-              </p>
-            </div>
-            <div className="md:mx-40 lg:mx-64 pr-4 pb-4 md:pb-8 lg:pb-12">
-              <figure>
-                <img className="w-full object-contain" src={frames} alt="/" />
-                <figcaption className="pt-4 text-center text-sm">
-                  Figure 8. New quest mockups
-                </figcaption>
-              </figure>
-            </div>
             <div className="pb-4 md:pb-10 lg:pb-16">
               <p>
                 Once the components were finished, I created a twelve column
@@ -305,6 +294,14 @@ const Quest = () => {
                 done, all that was left to do was add in the prototype wires for
                 the finished high-fidelity prototype.
               </p>
+            </div>
+            <div className="md:mx-40 lg:mx-64 pr-4 pb-4 md:pb-8 lg:pb-12">
+              <figure>
+                <img className="w-full object-contain" src={frames} alt="/" />
+                <figcaption className="pt-4 text-center text-sm">
+                  Figure 8. New quest mockups
+                </figcaption>
+              </figure>
             </div>
             <div className="md:mx-40 lg:mx-64 pr-4 pb-4 md:pb-8 lg:pb-12">
               <figure>
@@ -326,6 +323,39 @@ const Quest = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               The balancing beam of information
             </h1>
+            <p className="pb-5">
+              A setback of this design is that it requires scrolling whereas the
+              current Quest tabs do not. This means some information is hidden
+              when you arrive on a page, especially on some of the longer pages.
+              In order to mitigate this setback, the sidebar contains in-page
+              links to help users quickly reach the information that may not
+              appear at the top of the page. The implementation of the in-page
+              links as well as the improved information flow gained from
+              scrolling through boxes with dedicated functions is a worthwhile
+              tradeoff for some initially hidden information. However, a next
+              step could be to look into additional functions that could aid the
+              in-page links so that initially hidden information is even easier
+              to locate.
+            </p>
+            <p className="pb-5">
+              Something I really enjoyed about this project was the noticeable
+              visual difference between the current and proposed designs, most
+              of the tabs contained the same amount of information, but
+              spreading it out more evenly across the page and providing ample
+              padding for page elements made it a lot easier to read and process
+              information. Working towards finding a balance to the amount and
+              detail of information was an essential part of the entire process.
+            </p>
+            <p>
+              One of the major issues with the current Quest design was the lack
+              of accessibility for users. Implementing an accessibility-centred
+              approach was extremely useful for the final proposed design
+              because when I was deciding between different solutions, asking
+              myself which one would be easier for the majority of users was a
+              question I often asked, and answering it not only helped justify
+              my decisions but helped spark ideas for other elements on the
+              page.
+            </p>
           </div>
         </div>
       </div>

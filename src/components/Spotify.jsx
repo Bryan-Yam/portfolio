@@ -1,4 +1,7 @@
 import React from "react";
+import scrolling from "../assets/Spotify/scroll.png";
+import mockups from "../assets/Spotify/mock.png";
+import comm from "../assets/Spotify/Community Tab.png";
 
 const Spotify = () => {
   return (
@@ -91,8 +94,20 @@ const Spotify = () => {
               quickly, especially while looking away, which led to inputs in
               both the vertical and horizontal direction, causing ambiguity when
               the program determines whether to move to the next song or show
-              the lyrics. Since the lyric tab needs to be
+              the lyrics. This can be seen in the image below, where a slightly
+              slanted swipe leads to the second image, where the lyric tab
+              slightly pulls up instead of the third image where a new song is
+              played.
             </p>
+            <div className="flex place-content-center">
+              <figure>
+                <img className="w-[900px]" src={scrolling} alt="/" />
+                <figcaption className="text-center text-sm">
+                  Figure 1. Scrolling - actual outcome (middle) vs expected
+                  outcome (right)
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-16 lg:mx-60">
@@ -100,17 +115,57 @@ const Spotify = () => {
             <h2 className="font-heading text-sm md:text-base text-hover-purple">
               Mockups and Prototyping
             </h2>
-            <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
-              asssdad
+            <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5 md:pb-8">
+              Dropping the mic (onto the screen)
             </h1>
-            <p className="pb-5">
-              Using some inspiration from the desktop application, it is
-              proposed that the same microphone icon be used at the bottom of
-              the screen for the mobile application for lyrics to avoid this
-              clash when swiping. This button will still pull up the same lyric
-              tab, but won’t interfere with any swiping motions done by the user
-              to change songs.
-            </p>
+            <div className="grid grid-cols-2 items-center">
+              <div className="flex place-content-center pb-5">
+                <figure>
+                  <img className="w-[500px]" src={mockups} alt="/" />
+                  <figcaption className="text-center text-sm">
+                    Figure 2. New proposed designs
+                  </figcaption>
+                </figure>
+              </div>
+              <div>
+                <p className="pb-5">
+                  Using some inspiration from the desktop application, the new
+                  proposed design used the same microphone icon at the bottom of
+                  the screen for the mobile application for lyrics to avoid this
+                  clash when swiping. This button will still pull up the same
+                  lyric tab, but won’t interfere with any swiping motions done
+                  by the user to change songs.
+                </p>
+
+                <p>
+                  Some of the tradeoffs associated with the new design are the
+                  space constraints with the addition of a new button and a
+                  shift in functionality from a swipe to a button. The addition
+                  of the lyric button may clash with the audio device indicator
+                  located on the left side of the bar, however, since Spotify
+                  already implements a scrolling text feature on this component,
+                  it can be further offset to allow space for the lyric button,
+                  allowing for clearer functions for lyrics without the
+                  information provided by the scrolling text being compromised.
+                  The shift in functionality by using a button may lead to a
+                  clash with muscle memory for more experienced users. The
+                  button is justified since the current system has an ambiguous
+                  function for swipes that are not perfectly horizontal, which
+                  is more detrimental in the long term than having users adapt
+                  to a new, more streamlined system. I also made a simple
+                  prototype to show this feature, which you can see{" "}
+                  <a
+                    className="underline"
+                    href="https://www.figma.com/proto/HluiyOTedIo6LyWiaOCdeX/Spotify-Case-Study?type=design&node-id=3-7&t=qYkpLgUUg3mXTGLz-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A7&show-proto-sidebar=1&mode=design"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here
+                  </a>
+                  !
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-16 lg:mx-60">
@@ -121,35 +176,51 @@ const Spotify = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               Putting artists in the spotlight
             </h1>
-            <p className="pb-5">
-              The current system for finding merchandise and events is hard to
-              find and doesn’t provide much information, therefore, it is
-              proposed to have an extra tab at the bottom of the screen to allow
-              for a dedicated community space for information about concerts,
-              merchandise, and other events that artists may be promoting.
-            </p>
-            <p>img of mockup</p>
-            <p>
-              As seen in the mockup above, a new community tab can feature
-              concerts and merchandise by artists followed by users, with
-              additional content curated based on recent listens, similar
-              genres, and similar artists just like how Spotify's current home
-              page provides recommendations for new content. Users can also
-              bookmark events and access them using the top right bookmark
-              button, and search for particular artists or events using the
-              community-specific search function at the top. The buy buttons
-              take users to websites with more information; for events and
-              concerts, this would be Ticketmaster or a dedicated event page if
-              there are multiple artists, and for merch, this would be the
-              Spotify shop. Keeping it consistent with Spotify’s home page, each
-              horizontal section can be swiped through to expose additional
-              content, in this case, more concerts and merch. One of the
-              possible risks of implementing these features more prominently is
-              that users who are not interested in such content may be flooded
-              with new content that they are not interested in, degrading the
-              user experience. For this reason, a new tab was proposed instead
-              of adding a horizontal section on the home page.
-            </p>
+            <div className="grid md:grid-cols-2 items-center">
+              <div className="flex place-content-center pb-5">
+                <figure>
+                  <img className="w-[300px]" src={comm} alt="/" />
+                  <figcaption className="text-center text-sm">
+                    Figure 3. New community tab
+                  </figcaption>
+                </figure>
+              </div>
+              <div>
+                <p className="pb-5">
+                  The current system for finding merchandise and events is hard
+                  to find and doesn’t provide much information, therefore, it is
+                  proposed to have an extra tab at the bottom of the screen to
+                  allow for a dedicated community space for information about
+                  concerts, merchandise, and other events that artists may be
+                  promoting.
+                </p>
+                <p className="pb-5">
+                  As seen in the mockup, a new community tab can feature
+                  concerts and merchandise by artists followed by users, with
+                  additional content curated based on recent listens, similar
+                  genres, and similar artists just like how Spotify's current
+                  home page provides recommendations for new content. Users can
+                  also bookmark events and access them using the top right
+                  bookmark button, and search for particular artists or events
+                  using the community-specific search function at the top. The
+                  buy buttons take users to websites with more information; for
+                  events and concerts, this would be Ticketmaster or a dedicated
+                  event page if there are multiple artists, and for merch, this
+                  would be the Spotify shop.
+                </p>
+                <p>
+                  Keeping it consistent with Spotify’s home page, each
+                  horizontal section can be swiped through to expose additional
+                  content, in this case, more concerts and merch. One of the
+                  possible risks of implementing these features more prominently
+                  is that users who are not interested in such content may be
+                  flooded with new content that they are not interested in,
+                  degrading the user experience. For this reason, a new tab was
+                  proposed instead of adding a horizontal section on the home
+                  page.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-16 lg:mx-60">
@@ -158,7 +229,7 @@ const Spotify = () => {
               Learnings and Reflection
             </h2>
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
-              body mechanics and mobile spacing are an interesting recipe
+              Body mechanics and mobile spacing are an interesting recipe
             </h1>
             <p className="pb-5">
               I found it super interesting that minor body mechanics can heavily

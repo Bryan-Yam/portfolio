@@ -1,4 +1,5 @@
 import React from "react";
+import breakdown from "../assets/TFT Case/breakdown.jpg";
 
 const TFTDamage = () => {
   return (
@@ -112,6 +113,71 @@ const TFTDamage = () => {
               only be on the PC version of TFT, since it is more common among
               the player base and the mobile version has its own set of
               challenges due to a decreased screen size and tech specs.
+            </p>
+            <div className="flex place-content-center pb-5">
+              <figure>
+                <img className="w-[1200px]" src={breakdown} alt="/" />
+                <figcaption className="pb-4 text-center text-sm">
+                  Figure 1. TFT screen breakdown
+                </figcaption>
+              </figure>
+            </div>
+            <p>Orange</p>
+            <p>
+              - relevant information for understanding the pace of the game
+              through the large health point values of the seven opponents - the
+              minimap in the bottom right could be seen as slightly redundant as
+              you can click on the player tabs above to see other boards. It
+              also doesn’t provide a lot of useful information → provides the
+              opportunity to see who is battling who which could be useful in
+              niche situations, but overall this could be seen as too much
+              information.
+            </p>
+            <p>Red</p>
+            <p>
+              - information provided is specific and concise as it gives the
+              number needed for the synergy to take effect/improve; hovering
+              over a specific synergy also shows more detail about it - items
+              are similar in fashion, highlighting shows possible combinations
+              as well as their effects, but does not clutter the screen if not
+              highlighted and only shows the needed info (i.e. what the item or
+              item component is) - overall, high-level information is always
+              provided, and more specific info can be found by hovering over
+              specific objects
+            </p>
+            <p>Blue</p>
+            <p>
+              - the champion shop does an excellent job at providing a lot of
+              information without overloading the player - lots of information
+              is condensed when not hovered over, for example, champions in the
+              shop show the basic aspects needed to understand what they are
+              (name, cost, synergies) and hovering over each champion gives more
+              detail about what they actually do. They are also coloured-coded
+              with the probabilities above to show how rare it is for said unit
+              to appear. - The gold on the side of the board (in this case,
+              loaves of bread) are good visual indicators for which increment
+              you and your opponents are at for interest (every 10 gold saved
+              gets you an additional +1 gold next turn, each loaf of bread
+              represents that a 10 gold threshold has been reached) This
+              information is pretty important for more advanced gameplay as it
+              shows the relative economy of other players.
+            </p>
+            <p>Green</p>
+            <p>
+              - the stage progression uses icons to display what occurs at each
+              part of the stage (in this case, battle → battle → battle → item
+              carousel → battle → augment selection + battle → PvE) - the timer
+              bar is a bit redundant since there’s a digital timer in the top
+              right of the bar, but visually it can be glanced at it give a
+              rough indication of the time left
+            </p>
+            <p>Yellow</p>
+            <p>
+              - the large counter on the board makes it easy to know how many
+              units you have + how many units are on your board - hexes (the
+              spots champions stand on) are only highlighted when you move a
+              champion which helps reduce visual clutter when looking at other
+              parts of the screen
             </p>
           </div>
         </div>

@@ -8,6 +8,9 @@ import finalst from "../assets/Rebrand/finalstyle.png";
 import infoarch from "../assets/Rebrand/Info Arch.png";
 import logo from "../assets/Rebrand/logos.png";
 import title from "../assets/Rebrand/title.png";
+import web from "../assets/Rebrand/websitemock.png";
+import proto from "../assets/Rebrand/proto.png";
+
 const Rebrand = () => {
   return (
     <div className="bg-default-bg">
@@ -323,11 +326,28 @@ const Rebrand = () => {
                 </figcaption>
               </figure>
             </div>
-            <p>
+            <p className="pb-5">
               Afterwards, we drafted some different designs for each of the
               pages, and made some final touches to develop our completed
-              mockups for desktop, tablet, and mobile views.
+              mockups for desktop, tablet, and mobile views. After completing
+              the prototypes for the designs, we had finished the lab rebrand!
             </p>
+            <div className="flex place-content-center">
+              <figure>
+                <img className="w-[1200px]" src={web} alt="/" />
+                <figcaption className="pb-4 text-center text-sm">
+                  Figure 9. Landing page ideation and final designs
+                </figcaption>
+              </figure>
+            </div>
+            <div className="flex place-content-center">
+              <figure>
+                <img className="w-[1200px]" src={proto} alt="/" />
+                <figcaption className="pb-4 text-center text-sm">
+                  Figure 10. Final prototypes
+                </figcaption>
+              </figure>
+            </div>
           </div>
           <div className="pb-4 md:pb-10 lg:pb-16">
             <h2 className="font-heading text-hover-purple">
@@ -352,13 +372,17 @@ const Rebrand = () => {
             <p className="pb-5">
               Reflecting back on this project, it definitely had a lot of
               firsts; the team had a lot of creative freedom and ability to
-              explore different designs; I thought we did quite well ... one
-              thing I would've done different would be to establish what we
-              wanted out of the designs at first, and then ... I think we did a
+              explore different designs; I thought we did quite well in general,
+              one thing I would've done different would be to establish what we
+              wanted out of the designs at first, and then explored what
+              features and styles we could use afterwards. I think we did a
               really good job at justifying the final decisions we made, but we
-              often had a variety of designs first, and then
+              often had a variety of designs first, and then tried to pick and
+              choose aspects and see if we could fit certain themes to them, by
+              having a more definitive list I think we could've differentiated
+              the more feasible designs faster which would've also helped when
+              we were deliberating which direction to go.
             </p>
-            <p className="pb-5">sad</p>
           </div>
         </div>
       </div>

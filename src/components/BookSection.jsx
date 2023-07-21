@@ -41,8 +41,8 @@ const BookSection = () => {
           </p>
           <img src={profileImg} alt="/"></img>
           <p className="w-full">
-            ^ That's me. I don't particularly like cameras so I apologize for
-            the bad picture.
+            ^ That's the only "good" photo I could find of myself on my phone
+            (which is quite sad I know).
           </p>
         </div>
         <div className="w-full h-full md:border-l-2 border-zinc-300 p-10 bg-book-bg">
@@ -79,7 +79,8 @@ const BookSection = () => {
             I wanted to go into engineering because I liked math and science
             (how naïve of high school me) and it had "design" in the name, so it
             felt like a pretty good match to me. I also had a friend in the
-            program who vouched for it, and I was lucky enough to get accepted.
+            program who vouched for it, and I was fortunate enough to get
+            accepted.
           </p>
           <p className="font-sans pb-2 text-lg">
             Do you like Systems Design Engineering?
