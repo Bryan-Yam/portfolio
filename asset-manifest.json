@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.e14bb95d.css",
-    "main.js": "/static/js/main.eb1d8811.js",
+    "main.css": "/static/css/main.430849bb.css",
+    "main.js": "/static/js/main.4f190599.js",
     "static/media/apex.png": "/static/media/apex.00d2d304679a11133a92.png",
+    "static/media/websitemock.png": "/static/media/websitemock.821ceb1bb3f368261146.png",
+    "static/media/proto.png": "/static/media/proto.6ef653b692bd7887aafa.png",
     "static/media/all.png": "/static/media/all.76ece94ea1838bd564b8.png",
+    "static/media/breakdown.jpg": "/static/media/breakdown.f71a98a5347908c14bff.jpg",
     "static/media/radii.png": "/static/media/radii.711cf7703451056f032a.png",
     "static/media/3cost.png": "/static/media/3cost.e449986d4447bedb8f59.png",
     "static/media/2cost.png": "/static/media/2cost.7fa39c5986078eef68b7.png",
@@ -22,6 +25,7 @@
     "static/media/bass.png": "/static/media/bass.d3bafd9c01b82d9f1cc5.png",
     "static/media/fort.png": "/static/media/fort.23fd6a6e9bca8de6f6aa.png",
     "static/media/drdc.png": "/static/media/drdc.8becb6ee8a09f3b2ace9.png",
+    "static/media/comp.png": "/static/media/comp.90332a4bc3a18615a3c7.png",
     "static/media/sand.png": "/static/media/sand.688eb500bde6e0573c26.png",
     "static/media/rebrandheader.png": "/static/media/rebrandheader.72d66e42e9acf04ed0ce.png",
     "static/media/explorer.png": "/static/media/explorer.269a883acb5c7c35f7b3.png",
@@ -39,6 +43,7 @@
     "static/media/hex.png": "/static/media/hex.af8d8da7a19b5e72c166.png",
     "static/media/chem.png": "/static/media/chem.f88a17d1fb2ec69de75a.png",
     "static/media/emp.png": "/static/media/emp.a6ffb1b20b6dc418eae3.png",
+    "static/media/scroll.png": "/static/media/scroll.1836a675494dfc257797.png",
     "static/media/mount.png": "/static/media/mount.01924359cbb999e289d5.png",
     "static/media/frisbee.png": "/static/media/frisbee.0934c46ea4366996effa.png",
     "static/media/initial explore.png": "/static/media/initial explore.3e5632cc90aaebee647f.png",
@@ -53,12 +58,14 @@
     "static/media/cloud.png": "/static/media/cloud.56b969a66c8d252a66c1.png",
     "static/media/inspo.png": "/static/media/inspo.5ce87808cf1626ef3ba1.png",
     "static/media/myap.png": "/static/media/myap.b042f76557d1c388c728.png",
+    "static/media/topo.png": "/static/media/topo.7a86f62401ef74a34733.png",
+    "static/media/2000.png": "/static/media/2000.f02485eedfd0a9eef250.png",
+    "static/media/mock.png": "/static/media/mock.cec7c0a94cc568792417.png",
     "static/media/ziggs.png": "/static/media/ziggs.f59e5ae4276f2860e833.png",
     "static/media/wii.png": "/static/media/wii.1eb36b54f1e54c34af30.png",
     "static/media/irelia.png": "/static/media/irelia.e4d7b063c5a712d0d0c0.png",
     "static/media/sion.png": "/static/media/sion.efd825e600dc8e0c4f5b.png",
     "static/media/udyr.png": "/static/media/udyr.b4cd1ef0d52ef95fc740.png",
-    "static/media/proto.png": "/static/media/proto.6ef653b692bd7887aafa.png",
     "static/media/urgot.png": "/static/media/urgot.4d60359e365daa3ee390.png",
     "static/media/spotcase.png": "/static/media/spotcase.d4aca9937a35a46dd1ad.png",
     "static/media/settings.png": "/static/media/settings.48851e8e9bf1eec6a631.png",
@@ -68,6 +75,7 @@
     "static/media/Frames.jpg": "/static/media/Frames.6c629efe71ba5a72a989.jpg",
     "static/media/currentpage.png": "/static/media/currentpage.e68c9cfc7840d24891d5.png",
     "static/media/box_unopened_tp.png": "/static/media/box_unopened_tp.6e88801e73c17bf6d4e4.png",
+    "static/media/land.png": "/static/media/land.6f301f2515cad8545ac4.png",
     "static/media/claptrap.png": "/static/media/claptrap.efb55072201d101e3dd4.png",
     "static/media/title.png": "/static/media/title.5343b0e3efe3925915c2.png",
     "static/media/cartridge_dark_tp.png": "/static/media/cartridge_dark_tp.bf909b65c4a686c4c1bb.png",
@@ -83,6 +91,7 @@
     "static/media/profilepic.jpg": "/static/media/profilepic.7fed00e7f7623a2c5bf5.jpg",
     "static/media/questport.png": "/static/media/questport.2c0823f7d73cee0cb91b.png",
     "static/media/fridge_overflow.png": "/static/media/fridge_overflow.c31822da645072fda203.png",
+    "static/media/Community Tab.png": "/static/media/Community Tab.de175c35048f0917f867.png",
     "static/media/shelf_overflow.png": "/static/media/shelf_overflow.739561519d23bfff8f77.png",
     "static/media/cartridge_overflow.png": "/static/media/cartridge_overflow.32a598435c93bc605bd1.png",
     "static/media/cartridge_default_tp.png": "/static/media/cartridge_default_tp.e9819ad8a19488ffa63e.png",
@@ -92,11 +101,11 @@
     "static/media/fridge_unopened.png": "/static/media/fridge_unopened.bc39e2153da0871814e9.png",
     "static/media/cartridge_default.png": "/static/media/cartridge_default.595c0f13d80141de752f.png",
     "index.html": "/index.html",
-    "main.e14bb95d.css.map": "/static/css/main.e14bb95d.css.map",
-    "main.eb1d8811.js.map": "/static/js/main.eb1d8811.js.map"
+    "main.430849bb.css.map": "/static/css/main.430849bb.css.map",
+    "main.4f190599.js.map": "/static/js/main.4f190599.js.map"
   },
   "entrypoints": [
-    "static/css/main.e14bb95d.css",
-    "static/js/main.eb1d8811.js"
+    "static/css/main.430849bb.css",
+    "static/js/main.4f190599.js"
   ]
 }
