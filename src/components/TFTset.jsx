@@ -65,7 +65,7 @@ import stalk from "../assets/TFT Set/stalking.png";
 const TFTset = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed mb-4 md:mb-10 lg:mb-16">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed mb-4 md:mb-8 lg:mb-12">
         <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
           TFT Set Concept - Into the Wilderness!
         </h1>
@@ -310,8 +310,8 @@ const TFTset = () => {
             <div>
               <h1 className="pb-4 text-xl">Class: Basilisk</h1>
               <p className="pb-2">
-                When Basilisks are isolated in a line, gain bonus movement speed
-                and attack speed.
+                When Basilisks are isolated in a line, they gain bonus movement
+                speed and attack speed.
               </p>
               <p>(3) +10% movement speed and 10% attack speed</p>
               <p>(5) +20% movement speed and 20% attack speed</p>

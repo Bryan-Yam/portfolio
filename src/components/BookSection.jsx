@@ -9,7 +9,7 @@ const BookSection = () => {
           thanks for picking up my book, feel free to take a glance through it.
         </h1>
       </div>
-      <div className="text-kinda-white border-4 border-zinc-300 mt-6 md:mt-10 lg:mt-16 lg:mx-32 mx-6 md:mx-10 grid custom:grid-cols-2 gap-x-8">
+      <div className="text-kinda-white leading-relaxed border-4 border-zinc-300 mt-6 md:mt-10 lg:mt-16 lg:mx-32 mx-6 md:mx-10 grid custom:grid-cols-2 gap-x-8">
         <div className="w-full h-full border-zinc-300 p-10 md:border-r-2 border-b-2 md:border-b-0  bg-book-bg">
           <div className="grid grid-cols-[10%_90%] place-items-center">
             <h1 className="w-full text-left pb-4">903</h1>
@@ -33,9 +33,9 @@ const BookSection = () => {
               brings that I really enjoy.
             </p>
             <p className="text-left text-md pb-6 font-sans">
-              Outside of designing things, I play a lot of sports and video
-              games. I also really enjoy listening to music, doing origami and
-              cooking.
+              Outside of designing things, I play a lot of sports, mainly
+              ultimate frisbee, volleyball and soccer, and video games. I also
+              really enjoy listening to music, doing origami and cooking.
             </p>
             <img src={profileImg} alt="/"></img>
             <p className="w-full">
@@ -86,7 +86,9 @@ const BookSection = () => {
             are some truly extraordinary people in this program that I am
             grateful I met, but there are some courses that are required purely
             because "engineering" is in the program name, even though they don't
-            really relate to what most students tend to do in the future.
+            really relate to what most students tend to do in the future, for
+            example, linear algebra 2. For me personally, linear algebra 1 was
+            more than enough &#128517;.
           </p>
           <p className="font-sans pb-2 text-lg italic">
             Favourite course in university so far?

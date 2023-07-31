@@ -174,9 +174,9 @@ const DRDC = () => {
             </h1>
             <p className="pb-5 leading-relaxed">
               After getting feedback from my supervisor, I started adding the
-              final, more complex assets to replace the free placeholders I had
-              used to experiment. The most important piece of feedback I got was
-              to make sure{" "}
+              final, more complex AAA assets to replace the free placeholders I
+              had used to experiment. The most important piece of feedback I got
+              was to make sure{" "}
               <span className="font-bold">
                 my designs were standardized to ensure they didn't influence the
                 data
@@ -185,8 +185,6 @@ const DRDC = () => {
               experience with military scenarios still came from video games, so
               my perception on what to include in each level was very skewed. I
               definitely needed to tone down some of the features in my designs.
-            </p>
-            <p className="pb-5">
               For example, one of the lo-fi mockups I put a mountain to scale,
               but this would've led to way too many variables to account for and
               I worked to scale back any aspects that I thought would deter from
@@ -239,15 +237,15 @@ const DRDC = () => {
                   <div className="grid gap-2">
                     <p>
                       1. Movement is heavily based on the terrain; the more
-                      cover is better
+                      cover is better.
                     </p>
                     <p>
                       2. Target distance is essential for realism; the larger
-                      the target, the further it should be
+                      the target, the further it should be.
                     </p>
                     <p>
                       3. Waypoint markers should be placed at a roughly equal
-                      distance and within areas that are intuitive to traverse
+                      distance and within areas that are intuitive to traverse.
                     </p>
                     <p>
                       4. There are certain patterns that soldiers tend to follow
@@ -291,8 +289,8 @@ const DRDC = () => {
               <figure>
                 <img src={daynight} alt="/" />
                 <figcaption className="text-center text-sm">
-                  Figure 3. Examples of what the day and night scenes looked
-                  like
+                  Figure 3. Examples of day and night cycles from the
+                  environment pack used
                 </figcaption>
               </figure>
             </div>

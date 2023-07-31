@@ -1,5 +1,6 @@
 import React from "react";
 import breakdown from "../assets/TFT Case/breakdown.jpg";
+import final from "../assets/TFT Case/final.png";
 
 const TFTDamage = () => {
   return (
@@ -66,9 +67,20 @@ const TFTDamage = () => {
           </div>
         </div>
         <div className="mb-6 md:mb-10 lg:mb-16 bg-landing-project">
-          <div className="grid w-full items-center pb-4 md:pb-0 lg:pb-0">
+          <div className="grid md:grid-cols-2 w-full items-center pb-4 md:pb-0 lg:pb-0">
             <div className="flex place-content-center py-5">
-              <img className="w-[1200px] object-contain" src="/" alt="/" />
+              <img
+                className="w-full object-contain px-16"
+                src={final}
+                alt="/"
+              />
+            </div>
+            <div className="flex place-content-center py-5">
+              <img
+                className="w-full object-contain px-16"
+                src={final}
+                alt="/"
+              />
             </div>
           </div>
         </div>
@@ -81,7 +93,7 @@ const TFTDamage = () => {
               The fundamentals of Teamfight Tactics (feel free to skip if you're
               familiar with the game)
             </h1>
-            <p className="pb-5">
+            <p>
               Teamfight Tactics, or TFT, is an auto-chess-style strategy game
               based on the MOBA (multiplayer online battle arena) League of
               Legends. Fundamental information about the game: 1. You start at
@@ -179,6 +191,33 @@ const TFTDamage = () => {
               champion which helps reduce visual clutter when looking at other
               parts of the screen
             </p>
+          </div>
+        </div>
+        <div className="mx-6 md:mx-16 lg:mx-60">
+          <div className="pb-6 md:pb-10 lg:pb-16">
+            <h2 className="font-heading text-sm md:text-base text-hover-purple">
+              Game Breakdown and Analysis
+            </h2>
+            <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
+              When you have too much information for the screen, what do you do?
+            </h1>
+            <p className="pb-5">
+              Analyzing the information flow of the game is important for
+              determining if anything should be removed or moved with the
+              addition of damage numbers. For this case study, the focus will
+              only be on the PC version of TFT, since it is more common among
+              the player base and the mobile version has its own set of
+              challenges due to a decreased screen size and tech specs.
+            </p>
+            <div className="flex place-content-center pb-5">
+              <figure>
+                <img className="w-[1200px]" src={final} alt="/" />
+                <figcaption className="pb-4 text-center text-sm">
+                  Figure 2. TFT screen with damage indicator at the top of the
+                  screen
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ const Navbar = () => {
                 <div>
                   <Link
                     className=" hover:text-landing-hover-purple hover:cursor-pointer"
-                    to="/product"
+                    to="/games"
                   >
                     games
                   </Link>
