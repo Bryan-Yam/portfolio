@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.a35f2954.css",
-    "main.js": "/static/js/main.2e8b64d3.js",
+    "main.css": "/static/css/main.435728ae.css",
+    "main.js": "/static/js/main.3ca80935.js",
     "static/media/apex.png": "/static/media/apex.00d2d304679a11133a92.png",
     "static/media/websitemock.png": "/static/media/websitemock.821ceb1bb3f368261146.png",
     "static/media/proto.png": "/static/media/proto.6ef653b692bd7887aafa.png",
+    "static/media/final.png": "/static/media/final.3f98773259330a6c05db.png",
     "static/media/all.png": "/static/media/all.76ece94ea1838bd564b8.png",
     "static/media/breakdown.jpg": "/static/media/breakdown.f71a98a5347908c14bff.jpg",
     "static/media/trail.png": "/static/media/trail.21ada60d518d7a77f68a.png",
@@ -104,11 +105,11 @@
     "static/media/fridge_unopened.png": "/static/media/fridge_unopened.bc39e2153da0871814e9.png",
     "static/media/cartridge_default.png": "/static/media/cartridge_default.595c0f13d80141de752f.png",
     "index.html": "/index.html",
-    "main.a35f2954.css.map": "/static/css/main.a35f2954.css.map",
-    "main.2e8b64d3.js.map": "/static/js/main.2e8b64d3.js.map"
+    "main.435728ae.css.map": "/static/css/main.435728ae.css.map",
+    "main.3ca80935.js.map": "/static/js/main.3ca80935.js.map"
   },
   "entrypoints": [
-    "static/css/main.a35f2954.css",
-    "static/js/main.2e8b64d3.js"
+    "static/css/main.435728ae.css",
+    "static/js/main.3ca80935.js"
   ]
 }
