@@ -6,7 +6,7 @@ import radii from "../assets/Apex/radii.png";
 const Apex = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed">
         <div className="mx-6 md:mx-24 lg:mx-60 ">
           <h1 className="font-headers text-2xl md:text-3xl lg:text-4xl py-5">
             Apex Legends - an interaction system case study
@@ -171,6 +171,7 @@ const Apex = () => {
             </p>
           </div>
         </div>
+        <div></div>
       </div>
     </div>
   );

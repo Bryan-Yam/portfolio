@@ -29,7 +29,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/40 group-hover:to-black/90"></div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
               <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
                   Lab Rebrand
@@ -52,7 +52,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
               <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
                   Quest Redesign
@@ -75,7 +75,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
               <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
                   Augmented Reality Simulation
@@ -98,7 +98,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
               <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
                   Spotify Mobile
@@ -121,7 +121,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
               <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
                 <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
                   CRM Dashboard
@@ -143,7 +143,7 @@ const Projects = () => {
                 alt=""
               />
             </div>
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
             <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
                 Audiogram
@@ -161,7 +161,7 @@ const Projects = () => {
 
       <div className="text-kinda-white mx-6 md:mx-16 lg:mx-32 place-items-center text-center">
         <h1 className="w-full font-sans font-light text-2xl md:text-3xl lg:text-4xl py-9">
-          looking for games? check out my cartridge.
+          looking for game-oriented design? boot up my cartridge.
         </h1>
       </div>
       <div className="flex justify-center mx-6 md:mx-16 lg:mx-32">

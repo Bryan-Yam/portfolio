@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <div className="text-kinda-white bg-default-bg w-full text-center p-3 font-custom text-lg items-center h-auto pt-20 pb-10">
       <p className="font-headers font-light text-xl pb-3">
-        designed and created by bryan
+        designed and created by bryan {""}
+        <span className="text-text-purple">yam</span>
       </p>
       <div className="flex w-full place-content-center gap-5">
         <div>

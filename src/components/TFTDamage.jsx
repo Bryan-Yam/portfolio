@@ -4,7 +4,7 @@ import breakdown from "../assets/TFT Case/breakdown.jpg";
 const TFTDamage = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed">
         <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
           Teamfight Tactics - damage numbers and information flow
         </h1>

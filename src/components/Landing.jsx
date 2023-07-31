@@ -14,7 +14,12 @@ import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
-    <div className="flex w-full h-full relative z-10">
+    <div className="w-full h-full relative z-10">
+      <div className="w-full flex place-content-center">
+        <h1 className="text-lg font-headers py-8 w-[900px] flex md:hidden place-content-center text-center">
+          click an object (or use the navbar) to explore my room!
+        </h1>
+      </div>
       <div className="grid md:grid-cols-[18%_12%_40%_12%_18%] w-full h-full place-items-center">
         <div className="md:pb-48 pb-20 grid place-items-center">
           <div className="group relative cursor-pointer">
@@ -80,6 +85,11 @@ const Landing = () => {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="w-full place-content-center hidden md:flex">
+        <h1 className="text-2xl font-headers pt-4 w-[900px] flex place-content-center">
+          click an object (or use the navbar) to explore my room!
+        </h1>
       </div>
     </div>
   );

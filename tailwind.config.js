@@ -7,6 +7,10 @@ module.exports = {
         "3xl": "0px 0px 50px rgba(255, 255, 255, 0.4)",
         "4xl": "0px 0px 50px rgba(255, 255, 255, 0.7)",
       },
+      boxShadow: {
+        magnet:
+          "2px 3px 3px 0px rgba(0, 0, 0, 0.50), 3px 4px 0px 0px rgba(0, 0, 0, 0.25), 0.5px 0.5px 0px 1px #000, 3px 3px 5px 0px #FFF inset, 2px 2px 0px 0px #FFF inset",
+      },
       colors: {
         "goated-purple": "#C51AF0",
         "text-purple": "#DE78F7",
@@ -20,7 +24,7 @@ module.exports = {
         "landing-hover-purple": "#641CD9",
         "book-bg": "#111211",
         "default-bg": "#121212",
-        "game-bg": "#2F2F2F",
+        "game-bg": "#292929",
         "landing-project": "#1E1E1E",
       },
       backgroundImage: {

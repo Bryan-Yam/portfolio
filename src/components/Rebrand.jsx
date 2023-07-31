@@ -14,7 +14,7 @@ import proto from "../assets/Rebrand/proto.png";
 const Rebrand = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2 text-sm md:text-base">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed">
         <div>
           <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
             Lab Rebrand - revamping WSIB's innovation lab identity

@@ -65,7 +65,7 @@ import stalk from "../assets/TFT Set/stalking.png";
 const TFTset = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2 mb-4 md:mb-10 lg:mb-16">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed mb-4 md:mb-10 lg:mb-16">
         <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
           TFT Set Concept - Into the Wilderness!
         </h1>

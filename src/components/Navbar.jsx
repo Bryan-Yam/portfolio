@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  ArrowTopRightOnSquareIcon,
+} from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 pt-6 pb-6 relative z-50">
       <div className="px-16 flex justify-start items-center w-full">
-        <div className="flex w-full ">
+        <div className="flex w-full">
           <div className="hover:cursor-pointer pb-2 md:pb-0">
             <Link to="/portfolio">
               <span className="text-5xl mr-2 sm:text-5xl font-productsans">
@@ -48,8 +52,12 @@ const Navbar = () => {
                 href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
+                className="flex items-center gap-2"
               >
                 resume
+                <span>
+                  <ArrowTopRightOnSquareIcon className="w-6" />
+                </span>
               </a>
             </li>
             <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer">
@@ -104,15 +112,19 @@ const Navbar = () => {
             )}
           </div>
         </li>
-        <a
-          href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <li className="border-b-2 border-zinc-300 w-full px-8 py-6  hover:text-landing-hover-purple hover:cursor-pointer">
+        <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer">
+          <a
+            href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2"
+          >
             resume
-          </li>
-        </a>
+            <span>
+              <ArrowTopRightOnSquareIcon className="w-6" />
+            </span>
+          </a>
+        </li>
         <Link to="/fridge">
           <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer">
             fridge

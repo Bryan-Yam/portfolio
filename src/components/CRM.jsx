@@ -4,7 +4,7 @@ import land from "../assets/CRM/land.png";
 const CRM = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed">
         <div>
           <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
             Customer Relationship Management Dashboard - compiling data into one
@@ -28,7 +28,8 @@ const CRM = () => {
               <p className="font-bold pb-2">Problem statement</p>
               <p>
                 How might we create a CRM dashboard that compiles a variety of
-                data points while still maintaining ...?
+                data fields while still providing users a familiar and simple
+                experience?
               </p>
             </div>
             <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
@@ -184,7 +185,7 @@ const CRM = () => {
             </h1>
             <p className="pb-5">
               Reflecting on this project, the short answer is that you can't,
-              but I learned that listening to all sides has an immense value in
+              but I learned that listening to all sides has immense value in
               itself, even if you can't feasibly implement everything you
               capture. For example, one of the biggest pain points we found when
               performing our usability tests was a simple issue but hard to

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  ArrowTopRightOnSquareIcon,
+} from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
 export const DarkNavbar = () => {
@@ -48,8 +52,12 @@ export const DarkNavbar = () => {
                 href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
+                className="flex items-center gap-2"
               >
                 resume
+                <span>
+                  <ArrowTopRightOnSquareIcon className="w-6" />
+                </span>
               </a>
             </li>
             <li className="font-productsans text-2xl pr-5  text-kinda-white hover:text-hover-purple hover:cursor-pointer">
@@ -107,15 +115,20 @@ export const DarkNavbar = () => {
             )}
           </div>
         </li>
-        <a
-          href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <li className="border-b-2 px-8 py-6 border-zinc-300 w-full text-kinda-white hover:text-hover-purple hover:cursor-pointer">
+        <li className="border-b-2 px-8 py-6 border-zinc-300 w-full text-kinda-white hover:text-hover-purple hover:cursor-pointer">
+          <a
+            href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2"
+          >
             resume
-          </li>
-        </a>
+            <span>
+              <ArrowTopRightOnSquareIcon className="w-6" />
+            </span>
+          </a>
+        </li>
+
         <Link to="/fridge">
           <li className="border-b-2 px-8 py-6 border-zinc-300 w-full text-kinda-white hover:text-hover-purple hover:cursor-pointer">
             fridge

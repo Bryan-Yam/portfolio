@@ -14,7 +14,7 @@ import prototype from "../assets/Quest/proto.png";
 const Quest = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed">
         <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
           Quest Redesign - streamlining Waterloo's information portal
         </h1>
@@ -114,13 +114,18 @@ const Quest = () => {
             How do we display a wealth of information in a digestible way?
           </h1>
           <p className="pb-4">
-            Research was done to get a better understanding of users, their
-            needs, as well as the guidelines of the university. Students are the
-            University of Waterloo were asked about how they would describe
-            their experience using the Quest information system, and any pain
-            points they experience when completing various tasks. I also looked
-            at the University’s Multi-Year Accessibility Plan to understand the
-            vision of the university with respect to its platforms.{" "}
+            Research was done to gain a better{" "}
+            <span className="font-bold">
+              {" "}
+              understanding of users, their needs, as well as the guidelines of
+              the university
+            </span>
+            . Students are the University of Waterloo were asked about how they
+            would describe their experience using the Quest information system,
+            and any pain points they experience when completing various tasks. I
+            also looked at the University’s Multi-Year Accessibility Plan to
+            understand the vision of the university with respect to its
+            platforms.{" "}
           </p>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center pb-4 md:pb-10 lg:pb-16">
             <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
@@ -229,19 +234,24 @@ const Quest = () => {
                 </figure>
               </div>
             </div>
-            <p className="w-full text-center italic pb-8">
+            <p className="w-full text-center italic pb-5">
               "Alex is a first-year student who needs to be able to unenroll in
               some courses and become a part-time student because they are
               looking to extend their co-op term."
             </p>
             <p>
               When looking at the main menu for Quest through the lens of our
-              user journey, some key features stand out. Although the nine core
-              buttons provide good access to their specified links, for a
+              user journey above, some key features stand out. Although the nine
+              core buttons provide good access to their specified links, for a
               first-year student, there may be some confusion when they cannot
               find exactly what they are looking for, in this case, it is not
               entirely clear where the unenroll function would be on this page.
-              The different coloured boxes also link to common areas.
+              The different coloured boxes also link to common areas, which do
+              not have much overlap,{" "}
+              <span className="font-bold">
+                {" "}
+                leading to more clicks and a higher chance for user error.
+              </span>
             </p>
           </div>
           <div className="lg:pb-16">
@@ -256,14 +266,17 @@ const Quest = () => {
                 After compiling insights from the user journey walkthrough and
                 my preliminary research, I also mapped out the information
                 architecture of the site, as well as a baseline for the new
-                information architecture in the new design. My goal was to
-                reduce the amount of sections seen on the landing page and allow
-                users to navigate throughout the different sections, in
-                comparison to the current design where the sections are
+                information architecture in the new design. My goal was to{" "}
+                <span className="font-bold">
+                  reduce the amount of sections seen on the landing page and
+                  allow users to navigate throughout the different sections
+                </span>
+                , in comparison to the current design where the sections are
                 distinctly separated. Next, I designed the basic components for
                 the mockups. I tried to incorporate the University of Waterloo's
                 typography and colours as much as possible in order to keep the
-                new design consistent with other websites.
+                new design consistent with other websites as noted within
+                Waterloo's guidelines.
               </p>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-2 items-center gap-8 pr-4 pb-8 md:pb-12 lg:pb-18">

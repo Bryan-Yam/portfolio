@@ -2,11 +2,12 @@ import React from "react";
 import scrolling from "../assets/Spotify/scroll.png";
 import mockups from "../assets/Spotify/mock.png";
 import comm from "../assets/Spotify/Community Tab.png";
+import main from "../assets/Spotify/main.png";
 
 const Spotify = () => {
   return (
     <div className="bg-default-bg">
-      <div className="h-full text-kinda-white font-body2">
+      <div className="h-full text-kinda-white font-body2 text-sm md:text-base leading-relaxed">
         <h1 className="mx-6 md:mx-24 lg:mx-60 font-headers text-2xl md:text-3xl lg:text-4xl py-5">
           Spotify Mobile - analyzing biomechanics and community features
         </h1>
@@ -72,7 +73,7 @@ const Spotify = () => {
         <div className="mb-6 md:mb-10 lg:mb-16 bg-landing-project">
           <div className="grid w-full items-center pb-4 md:pb-0 lg:pb-0">
             <div className="flex place-content-center py-5">
-              <img className="w-[1200px] object-contain" src="/" alt="/" />
+              <img className="w-[600px] object-contain" src={main} alt="/" />
             </div>
           </div>
         </div>
