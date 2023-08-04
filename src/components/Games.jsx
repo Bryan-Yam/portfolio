@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Games = () => {
   return (
-    <div className="bg-default-bg min-h-screen md:px-48 px-10">
+    <div className="bg-default-bg px-8 lg:px-48">
       <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">
         <h1 className="font-headers font-normal text-2xl md:text-3xl lg:text-4xl py-9">
           thanks for picking up my game, feel free to load up a save.
@@ -25,8 +25,8 @@ const Games = () => {
           </p>
         </div>
         <Link to="/damagenumbers">
-          <div className="cursor-pointer grid md:flex border-4 bg-default-bg text-kinda-white hover:text-opacity-90 border-hover-purple border-opacity-40 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
-            <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
+          <div className="cursor-pointer grid md:grid-cols-[40%_60%] border-4 bg-default-bg text-kinda-white hover:text-opacity-90 border-hover-purple border-opacity-40 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+            <div className="p-4">
               <img
                 className="rounded-md border border-kinda-black"
                 src={tftImg}
@@ -43,14 +43,14 @@ const Games = () => {
                 with information.
               </p>
               <p className="text-kinda-gray font-sans">
-                Tags: Auto Chess, Figma, GIMP, Strategy, User Flows
+                Related Genres: Auto Chess, Figma, GIMP, Strategy, User Flows
               </p>
             </div>
           </div>
         </Link>
         <Link to="/apex">
-          <div className="cursor-pointer grid md:flex border-4 bg-default-bg border-hover-purple text-kinda-white hover:text-opacity-90 border-opacity-40 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
-            <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
+          <div className="cursor-pointer grid md:grid-cols-[40%_60%] border-4 bg-default-bg border-hover-purple text-kinda-white hover:text-opacity-90 border-opacity-40 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+            <div className="p-4">
               <img
                 className="rounded-md border border-kinda-black"
                 src={apexImg}
@@ -67,15 +67,15 @@ const Games = () => {
                 make the system more intuitive and accurate?
               </p>
               <p className="text-kinda-gray font-sans">
-                Tags: Battle Royale, FPS, User Experience, Multiplayer, Systems
-                Thinking
+                Related Genres: Battle Royale, FPS, User Experience,
+                Multiplayer, Systems Thinking
               </p>
             </div>
           </div>
         </Link>
         <Link to="/setdesign">
-          <div className="cursor-pointer grid md:flex border-4 bg-default-bg border-hover-purple border-opacity-40 text-kinda-white hover:text-opacity-90 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
-            <div className="p-4 md:p-5 md:w-[550px] md:h-[250px]">
+          <div className="cursor-pointer grid md:grid-cols-[40%_60%] border-4 bg-default-bg border-hover-purple border-opacity-40 text-kinda-white hover:text-opacity-90 hover:border-opacity-90 mx-5 md:mx-16 rounded-lg place-items-center mb-6 hover:-translate-y-1 hover:scale-105 transition ease-in-out delay-150 duration-300">
+            <div className="p-4">
               <img
                 className="rounded-md border border-kinda-black"
                 src={setImg}
@@ -92,8 +92,8 @@ const Games = () => {
                 New traits, set mechanics, and champions!
               </p>
               <p className="text-kinda-gray font-sans">
-                Tags: Auto Chess, Game Design, Strategy, Iconography, Product
-                Thinking, GIMP
+                Related Genres: Auto Chess, Game Design, Strategy, Iconography,
+                Product Thinking, GIMP
               </p>
             </div>
           </div>

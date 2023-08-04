@@ -17,7 +17,7 @@ const Apex = () => {
             At a glace
           </h2>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-8 ">
-            <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
+            <div className="w-full pr-4">
               <p className="font-bold pb-2">Context</p>
               <p>
                 Apex Legends is a battle royale first-person shooter known for
@@ -27,7 +27,7 @@ const Apex = () => {
                 interactions etc.
               </p>
             </div>
-            <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
+            <div className="w-full pr-4">
               <p className="font-bold pb-2">Problem statement</p>
               <p>
                 The interaction system in Apex currently uses one button to
@@ -35,20 +35,20 @@ const Apex = () => {
                 inputs as game objects clash with the interaction radius.
               </p>
             </div>
-            <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
+            <div className="w-full pr-4">
               <p className="font-bold pb-2">Value proposition </p>
               <p>
                 Creating a better interaction system allows for more accurate
                 inputs, leading to more fluid and consistent gameplay.
               </p>
             </div>
-            <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
+            <div className="w-full pr-4">
               <p className="font-bold pb-2">Team</p>
               <ul className="list-disc pl-4">
                 <li className="p-1">1 interaction designer (me)</li>
               </ul>
             </div>
-            <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
+            <div className="w-full pr-4">
               <p className="font-bold pb-2">Functions </p>
               <ul className="list-disc pl-4">
                 <li className="p-1">Interaction Design</li>
@@ -56,7 +56,7 @@ const Apex = () => {
                 <li className="p-1">Game UX Design</li>
               </ul>
             </div>
-            <div className="w-full pr-4 pb-4 md:pb-0 lg:pb-0">
+            <div className="w-full pr-4">
               <p className="font-bold pb-2">Expected impacts</p>
               <ul className="list-disc pl-4">
                 <li className="p-1">improved game clarity</li>
@@ -67,14 +67,12 @@ const Apex = () => {
           </div>
         </div>
         <div className="bg-3-gray py-9 mb-4 md:mb-10 lg:mb-16">
-          <div className="w-full items-center pb-4 md:pb-0 lg:pb-0">
-            <div>
-              <img
-                className="w-full px-96 object-contain"
-                src={inter}
-                alt="/"
-              />
-            </div>
+          <div className="flex place-content-center">
+            <img
+              className="w-[1000px] px-10 object-contain"
+              src={inter}
+              alt="/"
+            />
           </div>
         </div>
         <div className="lg:pb-8 mx-6 md:mx-16 lg:mx-60">
@@ -84,7 +82,7 @@ const Apex = () => {
           <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
             One button sure does a lot of things
           </h1>
-          <p className="pb-2">
+          <p className="pb-5">
             As seen in the image above, everything circled in red is
             interactable (with some missing objects such as vehicles, doors
             etc.). However, they all use the same interact button, so if these
@@ -95,8 +93,8 @@ const Apex = () => {
             placed objects.
           </p>
         </div>
-        <div className="lg:pb-8 mx-6 md:mx-16 lg:mx-60">
-          <div className="grid md:grid-cols-2 gap-10">
+        <div className="pb-5 mx-6 md:mx-16 lg:mx-60">
+          <div className="grid grid-cols-2 gap-10">
             <div className="flex justify-end">
               <div>
                 <h1 className="font-bold pb-2">Combat</h1>

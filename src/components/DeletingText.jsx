@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 const DeletingText = () => {
   return (
-    <div className="w-full h-fit pt-5 md:pb-5 md:pt-0 grid place-items-center text-2xl md:text-3xl font-headers italic">
+    <div className="w-full h-fit pt-5 pb-0 md:pb-5 md:pt-0 grid place-items-center text-2xl md:text-3xl font-headers italic">
       <div className="md:flex hidden items-start">
         <h1 className="not-italic">hi there! i'm bryan,&nbsp;</h1>
         <Typewriter
@@ -27,7 +27,7 @@ const DeletingText = () => {
         />
       </div>
       <h1 className="not-italic md:hidden">hi there! i'm bryan,&nbsp;</h1>
-      <div className="md:hidden text-center">
+      <div className="md:hidden text-center h-[50px]">
         <Typewriter
           options={{
             skipAddStyles: true,

@@ -10,17 +10,22 @@ const BookSection = () => {
         </h1>
       </div>
       <div className="text-kinda-white leading-relaxed border-4 border-zinc-300 mt-6 md:mt-10 lg:mt-16 lg:mx-32 mx-6 md:mx-10 grid custom:grid-cols-2 gap-x-8">
-        <div className="w-full h-full border-zinc-300 p-10 md:border-r-2 border-b-2 md:border-b-0  bg-book-bg">
+        <div className="w-full h-full border-zinc-300 p-10 md:border-r-2 border-b-2 custom:border-b-0  bg-book-bg">
           <div className="grid grid-cols-[10%_90%] place-items-center">
-            <h1 className="w-full text-left pb-4">903</h1>
-            <h1 className="w-full text-center pb-4 italic">
+            <h1 className="w-full text-left text-sm md:text-base pb-4">903</h1>
+            <h1 className="w-full text-center text-sm md:text-base pb-4 italic">
               The Difference Between Sweet Potatoes and Yams
             </h1>
           </div>
           <div>
-            <h1 className="text-left text-2xl py-6 font-sans">
-              Hi there, I'm Bryan!
-            </h1>
+            <h1 className="text-2xl py-6 font-sans">Hi there, I'm Bryan!</h1>
+            <div className="w-full flex place-content-center pb-5">
+              <img
+                className="object-contain w-96"
+                src={profileImg}
+                alt="/"
+              ></img>
+            </div>
             <p className="text-left text-md pb-4 font-sans">
               I leverage design tools to create meaningful experiences for
               others. There's always been a really satisfying feeling when a
@@ -32,22 +37,19 @@ const BookSection = () => {
               problem-solving and creativity that UX design, in particular,
               brings that I really enjoy.
             </p>
-            <p className="text-left text-md pb-6 font-sans">
+            <p className="text-left text-md font-sans">
               Outside of designing things, I play a lot of sports, mainly
               ultimate frisbee, volleyball and soccer, and video games. I also
               really enjoy listening to music, doing origami and cooking.
-            </p>
-            <img src={profileImg} alt="/"></img>
-            <p className="w-full">
-              ^ That's the only "good" photo I could find of myself on my phone
-              (which is quite sad I know).
             </p>
           </div>
         </div>
         <div className="w-full h-full md:border-l-2 border-zinc-300 p-10 bg-book-bg">
           <div className="grid grid-cols-[90%_10%] place-items-center">
-            <h1 className="w-full text-center pb-4 italic">Bryan Yam</h1>
-            <h1 className="w-full text-right pb-4">904</h1>
+            <h1 className="w-full text-center pb-4 text-sm md:text-base italic">
+              Bryan Yam
+            </h1>
+            <h1 className="w-full text-right text-sm md:text-base pb-4">904</h1>
           </div>
           <h1 className="text-2xl pb-4">
             FAQs (that aren't actually asked frequently)
@@ -97,10 +99,6 @@ const BookSection = () => {
             Thermodynamics. (No, that was not a typo, I don't really understand
             this choice either)
           </p>
-          <p className="font-sans pb-2 text-lg italic">
-            What are you staring at in the picture?
-          </p>
-          <p className="font-sans pb-4 text-md">Honestly, I have no clue.</p>
 
           <p>
             Can't find what you're looking for? Shoot me an

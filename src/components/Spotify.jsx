@@ -15,7 +15,7 @@ const Spotify = () => {
           At a glace
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-8 mx-6 md:mx-24 lg:mx-60 pb-4 md:pb-10 lg:pb-16">
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Context</p>
             <p>
               Spotify is my most used mobile app and a mobile app I enjoy using.
@@ -24,14 +24,14 @@ const Spotify = () => {
               solutions to these issues.
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Problem statement</p>
             <p>
               How might we improve spotify's community and lyric features to
               create a more streamlined and cohesive experience for users?
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Value proposition </p>
             <p>
               Improving the Quest experience allows students to find information
@@ -41,13 +41,13 @@ const Spotify = () => {
               clarification to UW staff.
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Team</p>
             <ul className="list-disc pl-4">
               <li className="p-1">1 product designer (me)</li>
             </ul>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Functions </p>
             <ul className="list-disc pl-4">
               <li className="p-1">Accessibility</li>
@@ -55,7 +55,7 @@ const Spotify = () => {
               <li className="p-1">Brand & Product Thinking</li>
             </ul>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Expected impacts</p>
             <ul className="list-disc pl-4">
               <li className="p-1">no ambiguity when swiping through music</li>
@@ -72,7 +72,7 @@ const Spotify = () => {
         </div>
         <div className="mb-6 md:mb-10 lg:mb-16 bg-landing-project">
           <div className="grid w-full items-center pb-4 md:pb-0 lg:pb-0">
-            <div className="flex place-content-center py-5">
+            <div className="flex place-content-center py-5 px-6">
               <img className="w-[600px] object-contain" src={main} alt="/" />
             </div>
           </div>
@@ -119,7 +119,7 @@ const Spotify = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5 md:pb-8">
               Dropping the mic (onto the screen)
             </h1>
-            <div className="grid grid-cols-2 items-center">
+            <div className="grid lg:grid-cols-2 items-center">
               <div className="flex place-content-center pb-5">
                 <figure>
                   <img className="w-[500px]" src={mockups} alt="/" />
@@ -137,7 +137,6 @@ const Spotify = () => {
                   lyric tab, but won’t interfere with any swiping motions done
                   by the user to change songs.
                 </p>
-
                 <p>
                   Some of the tradeoffs associated with the new design are the
                   space constraints with the addition of a new button and a

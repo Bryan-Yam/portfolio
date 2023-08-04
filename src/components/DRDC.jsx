@@ -17,7 +17,7 @@ const DRDC = () => {
           At a glace
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-8 mx-6 md:mx-24 lg:mx-60 pb-4 md:pb-10 lg:pb-16">
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Context</p>
             <p>
               During my time at Defence Research and Development Canada, I
@@ -31,7 +31,7 @@ const DRDC = () => {
               alternate visuals using Figma to help explain the process :).
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Problem statement</p>
             <p>
               How might we explore augmented reality use cases within the field
@@ -40,7 +40,7 @@ const DRDC = () => {
               and time of completion?
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Value proposition </p>
             <p>
               Implementing augmented reality can create safer environments for
@@ -48,7 +48,7 @@ const DRDC = () => {
               confidence levels, and faster completion times for missions.
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Team</p>
             <ul className="list-disc pl-4">
               <li className="p-1">1 Level/UX Designer (me)</li>
@@ -56,7 +56,7 @@ const DRDC = () => {
               <li className="p-1">2 Defence Research Scientists</li>
             </ul>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Functions </p>
             <ul className="list-disc pl-4">
               <li className="p-1">Interaction Design</li>
@@ -65,7 +65,7 @@ const DRDC = () => {
               <li className="p-1">Research Methods</li>
             </ul>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Expected impacts</p>
             <ul className="list-disc pl-4">
               <li className="p-1">
@@ -80,10 +80,10 @@ const DRDC = () => {
         </div>
         <div className="mb-6 md:mb-10 lg:mb-16 bg-landing-project">
           <div className="grid md:grid-cols-2 gap-2 px-16 w-full items-center pb-4 md:pb-0 lg:pb-0">
-            <div className="flex place-content-center py-16 px-16">
+            <div className="flex place-content-center py-16">
               <img className="w-full object-contain" src={comp} alt="/" />
             </div>
-            <div className="flex place-content-center py-16 px-16">
+            <div className="flex place-content-center pb-16 md:py-16">
               <img className="w-full object-contain" src={trail} alt="/" />
             </div>
           </div>

@@ -13,7 +13,7 @@ const TFTDamage = () => {
           At a glace
         </h2>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-8 mx-6 md:mx-24 lg:mx-60 pb-4 md:pb-10 lg:pb-16">
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Context</p>
             <p>
               As a strategy game, TFT requires players to process a wealth of
@@ -25,7 +25,7 @@ const TFTDamage = () => {
               predictable.
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Problem statement</p>
             <p>
               How might we implement explicit damage numbers into TFT while
@@ -33,7 +33,7 @@ const TFTDamage = () => {
               players?
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Value proposition </p>
             <p>
               Providing damage numbers to players, fundamental gameplay
@@ -43,13 +43,13 @@ const TFTDamage = () => {
               rerolling and positioning.
             </p>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Team</p>
             <ul className="list-disc pl-4">
               <li className="p-1">1 UX/UI designer (me)</li>
             </ul>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Functions </p>
             <ul className="list-disc pl-4">
               <li className="p-1">Visual Spacing</li>
@@ -57,7 +57,7 @@ const TFTDamage = () => {
               <li className="p-1">Game Design</li>
             </ul>
           </div>
-          <div className="w-full pr-4 pb-8 md:pb-0 lg:pb-0">
+          <div className="w-full pr-4">
             <p className="font-bold pb-2">Expected impacts</p>
             <ul className="list-disc pl-4">
               <li className="p-1">improved game clarity</li>
@@ -67,17 +67,10 @@ const TFTDamage = () => {
           </div>
         </div>
         <div className="mb-6 md:mb-10 lg:mb-16 bg-landing-project">
-          <div className="grid md:grid-cols-2 w-full items-center pb-4 md:pb-0 lg:pb-0">
+          <div className="grid w-full items-center pb-4 md:pb-0 lg:pb-0">
             <div className="flex place-content-center py-5">
               <img
-                className="w-full object-contain px-16"
-                src={final}
-                alt="/"
-              />
-            </div>
-            <div className="flex place-content-center py-5">
-              <img
-                className="w-full object-contain px-16"
+                className="object-contain w-[1000px] px-10"
                 src={final}
                 alt="/"
               />
