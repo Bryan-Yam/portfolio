@@ -51,7 +51,7 @@ const DRDC = () => {
           <div className="w-full pr-4">
             <p className="font-bold pb-2">Team</p>
             <ul className="list-disc pl-4">
-              <li className="p-1">1 Level/UX Designer (me)</li>
+              <li className="p-1">1 level/UX designer (me)</li>
               <li className="p-1">1 Unity Developer</li>
               <li className="p-1">2 Defence Research Scientists</li>
             </ul>

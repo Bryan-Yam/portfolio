@@ -125,7 +125,7 @@ const Quest = () => {
             and any pain points they experience when completing various tasks. I
             also looked at the University’s Multi-Year Accessibility Plan to
             understand the vision of the university with respect to its
-            platforms.{" "}
+            platforms.
           </p>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center pb-4 md:pb-10 lg:pb-16">
             <div className="w-full pr-4 pb-5 md:pb-0">

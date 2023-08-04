@@ -46,7 +46,7 @@ const TFTDamage = () => {
           <div className="w-full pr-4">
             <p className="font-bold pb-2">Team</p>
             <ul className="list-disc pl-4">
-              <li className="p-1">1 UX/UI designer (me)</li>
+              <li className="p-1">1 UI/UX designer (me)</li>
             </ul>
           </div>
           <div className="w-full pr-4">
@@ -86,21 +86,43 @@ const TFTDamage = () => {
               The fundamentals of Teamfight Tactics (feel free to skip if you're
               familiar with the game)
             </h1>
-            <p>
+            <p className="pb-5">
               Teamfight Tactics, or TFT, is an auto-chess-style strategy game
               based on the MOBA (multiplayer online battle arena) League of
-              Legends. Fundamental information about the game: 1. You start at
-              100 health points and battle 7 other players (or little legends)
-              until one is left standing. 2. Throughout the game, you obtain
-              currency which allows you to buy units. 3. Health points are lost
-              when you lose a battle; this occurs when the opponent's units slay
-              all of your units. 4. Damage taken is calculated based on the
-              stage of the game (later stages deal more damage) and the number
-              of units your opponent has left (each unit alive deals an
-              additional 2 health points). 5. You are given approximately 30
-              seconds in between each battle, so it’s important to make moves
-              quickly.
+              Legends. Here's some fundamental information about the game to
+              help you understand this case study better:
             </p>
+            <div className="grid">
+              <div className="flex justify-center md:mx-24 lg:mx-48">
+                <div className="grid gap-2">
+                  <p>
+                    1. You start the game at 100 health points and battle 7
+                    other players (or little legends) until one is left
+                    standing.
+                  </p>
+                  <p>
+                    2. Throughout the game, you obtain currency which allows you
+                    to buy units, which fight on your behalf against the other 7
+                    players in the game.
+                  </p>
+                  <p>
+                    3. Health points are lost when you lose a battle; this
+                    occurs when the opponent's units slay all of your units.
+                  </p>
+                  <p>
+                    4. Damage taken is calculated based on the stage of the game
+                    and the number of remaining units your opponent has left
+                    after slaying all your units.
+                  </p>
+                  <p>
+                    5. You are given approximately 30 seconds in between each
+                    battle to prepare your units, so it’s important to make
+                    moves quickly. Each stage has 5 battles, with damage
+                    increasing as the stage number gets higher.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-16 lg:mx-60">
@@ -117,7 +139,7 @@ const TFTDamage = () => {
               addition of damage numbers. For this case study, the focus will
               only be on the PC version of TFT, since it is more common among
               the player base and the mobile version has its own set of
-              challenges due to a decreased screen size and tech specs.
+              challenges due to a decrease in screen size and tech specs.
             </p>
             <div className="flex place-content-center pb-5">
               <figure>
@@ -127,82 +149,124 @@ const TFTDamage = () => {
                 </figcaption>
               </figure>
             </div>
-            <p>Orange</p>
-            <p>
-              - relevant information for understanding the pace of the game
-              through the large health point values of the seven opponents - the
-              minimap in the bottom right could be seen as slightly redundant as
-              you can click on the player tabs above to see other boards. It
-              also doesn’t provide a lot of useful information → provides the
-              opportunity to see who is battling who which could be useful in
-              niche situations, but overall this could be seen as too much
-              information.
+            <p className="pb-5">
+              After looking at the screen above, I compiled some key insights
+              about each main section of the game, as well as an overall summary
+              of how information is structured and presented.
             </p>
-            <p>Red</p>
-            <p>
-              - information provided is specific and concise as it gives the
-              number needed for the synergy to take effect/improve; hovering
-              over a specific synergy also shows more detail about it - items
-              are similar in fashion, highlighting shows possible combinations
-              as well as their effects, but does not clutter the screen if not
-              highlighted and only shows the needed info (i.e. what the item or
-              item component is) - overall, high-level information is always
-              provided, and more specific info can be found by hovering over
-              specific objects
-            </p>
-            <p>Blue</p>
-            <p>
-              - the champion shop does an excellent job at providing a lot of
-              information without overloading the player - lots of information
-              is condensed when not hovered over, for example, champions in the
-              shop show the basic aspects needed to understand what they are
-              (name, cost, synergies) and hovering over each champion gives more
-              detail about what they actually do. They are also coloured-coded
-              with the probabilities above to show how rare it is for said unit
-              to appear. - The gold on the side of the board (in this case,
-              loaves of bread) are good visual indicators for which increment
-              you and your opponents are at for interest (every 10 gold saved
-              gets you an additional +1 gold next turn, each loaf of bread
-              represents that a 10 gold threshold has been reached) This
-              information is pretty important for more advanced gameplay as it
-              shows the relative economy of other players.
-            </p>
-            <p>Green</p>
-            <p>
-              - the stage progression uses icons to display what occurs at each
-              part of the stage (in this case, battle → battle → battle → item
-              carousel → battle → augment selection + battle → PvE) - the timer
-              bar is a bit redundant since there’s a digital timer in the top
-              right of the bar, but visually it can be glanced at it give a
-              rough indication of the time left
-            </p>
-            <p>Yellow</p>
-            <p>
-              - the large counter on the board makes it easy to know how many
-              units you have + how many units are on your board - hexes (the
-              spots champions stand on) are only highlighted when you move a
-              champion which helps reduce visual clutter when looking at other
-              parts of the screen
-            </p>
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-y-4 justify-items-center">
+              <div className="w-full pr-4">
+                <h2 className="font-bold pb-2 text-orange-400"> Orange</h2>
+                <ul className="list-disc pl-4">
+                  <li className="p-1">
+                    Compiles all other player data for the user on the right of
+                    the screen.
+                  </li>
+                  <li className="p-1">
+                    Minimap at the bottom of the group is slightly redundant;
+                    conveys the same information as the icons above.
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full pr-4">
+                <h2 className="font-bold pb-2 text-red-400"> Red</h2>
+                <ul className="list-disc pl-4">
+                  <li className="p-1">
+                    Provides vital information about trait bonuses and items on
+                    the left of the screen.
+                  </li>
+                  <li className="p-1">
+                    Utilizes tooltips to convey more detailed information,
+                    allows users to pick and choose which areas they need more
+                    info for depending on the situation.
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full pr-4">
+                <h2 className="font-bold pb-2 text-cyan-400"> Blue</h2>
+                <ul className="list-disc pl-4">
+                  <li className="p-1">
+                    Summarizes the key features a player can perform in a turn;
+                    buying XP, refreshing the shop, and buying champions.
+                  </li>
+                  <li className="p-1">
+                    Uses detailed icons to avoid text clutter, which can also
+                    allow users to process information easier.
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full pr-4">
+                <h2 className="font-bold pb-2 text-lime-400"> Green</h2>
+                <ul className="list-disc pl-4">
+                  <li className="p-1">
+                    Contains all related information about stage progression and
+                    round types.
+                  </li>
+                  <li className="p-1">
+                    Similar to the blue section, heavily relies on icon usage to
+                    convey information quickly.
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full pr-4">
+                <h2 className="font-bold pb-2 text-amber-400"> Yellow</h2>
+                <ul className="list-disc pl-4">
+                  <li className="p-1">
+                    Largest portion of the screen, however, only shows detailed
+                    UI when the user interacts with the section. For example,
+                    only when you select a unit on the board do all hexes
+                    highlight to show a player where that unit can be placed.
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full pr-4">
+                <h2 className="font-bold pb-2"> Overall Insights</h2>
+                <ul className="list-disc pl-4">
+                  <li className="p-1">
+                    In general, each section has a defined purpose, and only
+                    contains information relevant to said purpose.
+                  </li>
+                  <li className="p-1">
+                    Each section displays the minimum about of high level
+                    information needed; allowing users to gain more detailed
+                    info by interacting with a particular section.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <div className="mx-6 md:mx-16 lg:mx-60">
           <div className="pb-6 md:pb-10 lg:pb-16">
             <h2 className="font-heading text-sm md:text-base text-hover-purple">
-              Game Breakdown and Analysis
+              Implementation
             </h2>
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
-              When you have too much information for the screen, what do you do?
+              Finding the perfect fit for the new module
             </h1>
             <p className="pb-5">
-              Analyzing the information flow of the game is important for
-              determining if anything should be removed or moved with the
-              addition of damage numbers. For this case study, the focus will
-              only be on the PC version of TFT, since it is more common among
-              the player base and the mobile version has its own set of
-              challenges due to a decreased screen size and tech specs.
+              Next, there needs to be a spot where the{" "}
+              <span className="font-bold">
+                damage numbers can go that makes sense both from a visual and
+                gameplay perspective.{" "}
+              </span>
+              Following the observations made above, the most optimal place for
+              damage numbers would be at the top of the screen (green section)
+              since damage numbers are determined by the stage number and the
+              number of units your opponent has left on the board.
             </p>
-            <div className="flex place-content-center pb-5">
+            <p className="pb-5">
+              Originally I was looking at placing the damage numbers under the
+              timer to keep things symmetrical at the top, but doing so may
+              clash with the bench at the other side of the board, which could
+              both cause the player to lose information about the opponent and
+              cause a lot of visual conflicts due to the lack of space and some
+              champions being larger than others. Because of that, the option I
+              decided to go with was following the layout of the probability tab
+              in the bottom champion shop and creating a parallelogram that
+              could connect to the left side of the stage/timer bar.
+            </p>
+            <div className="flex place-content-center">
               <figure>
                 <img className="w-[1200px]" src={final} alt="/" />
                 <figcaption className="pb-4 text-center text-sm">
@@ -211,6 +275,47 @@ const TFTDamage = () => {
                 </figcaption>
               </figure>
             </div>
+          </div>
+        </div>
+        <div className="mx-6 md:mx-16 lg:mx-60">
+          <div className="pb-6 md:pb-10 lg:pb-16">
+            <h2 className="font-heading text-sm md:text-base text-hover-purple">
+              Learnings and Reflection
+            </h2>
+            <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
+              Tiny pain points and the importance of groupings
+            </h1>
+            <p className="pb-5">
+              I spent a lot of time trying to think about what to look at for
+              TFT and it was quite difficult at first, which I couldn’t believe
+              since I play TFT so often. A lot of initial ideas were based on
+              frustrations due to bugs, or really specific occurrences that
+              wouldn’t be super meaningful to the majority of players. After a
+              while (and through playing some TFT), I realized that you are
+              never explicitly told how much damage you will take, and as
+              someone who has played hundreds of games of TFT, I still don’t
+              completely know the damage numbers for each stage, so I figured
+              that a little panel that you help you do the math would be useful,
+              especially for newer players who have more important things to
+              learn about the game. It helped me understand that small pain
+              points can make a world of difference and that solving them is
+              just as important as bigger issues.
+            </p>
+            <p>
+              One thing that really impressed me about the TFT information flow
+              is how well everything is organized and presented despite the
+              massive amount of information on the screen. For example, gold is
+              heavily tied to champions so they are located directly together at
+              the bottom of the screen. Wherever you look, related information
+              is always placed together on the screen and further information is
+              only available when you hover over something, meaning you won’t
+              get distracted by a wall of text across the screen when you need
+              to look at other factors for your board. It’s something that is
+              really nuanced which I had never really noticed throughout all my
+              games of TFT, but after analyzing the game screen a bit more I
+              came to this realization and I think it really helped me justify
+              my decisions for the placement of the damage indicator module.
+            </p>
           </div>
         </div>
       </div>

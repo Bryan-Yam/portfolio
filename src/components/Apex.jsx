@@ -86,9 +86,11 @@ const Apex = () => {
             As seen in the image above, everything circled in red is
             interactable (with some missing objects such as vehicles, doors
             etc.). However, they all use the same interact button, so if these
-            objects are near each other, it can create a lot of confusion. My
-            first objective was to try and sort these interactable objects so
-            more than one key could be utilised, helping reduce the confusion
+            objects are near each other, it can create a lot of confusion.{" "}
+            <span className="font-bold">
+              My first objective was to try and sort these interactable objects
+            </span>{" "}
+            so more than one key could be utilized, helping reduce the confusion
             and frustration that can occur when trying to interact with closely
             placed objects.
           </p>
@@ -122,14 +124,14 @@ const Apex = () => {
           </div>
         </div>
         <div className="lg:pb-8 mx-6 md:mx-16 lg:mx-60">
-          <p className="pb-4">
+          <p className="pb-5">
             After some brainstorming, I thought 2 categories (combat and
             non-combat) would be best as it separates interactable objects into
             distinct categories, and doesn't make the interaction system more
             complex than needed. I chose these categories for a couple reasons:
             the majority of interaction conflicts occur when a combat and
             non-combat object are close together. For example, when you're
-            trying to open a door and pick up a weapon instead.
+            trying to open a door and pick up a weapon instead!
           </p>
         </div>
         <div className="lg:pb-8 mx-6 md:mx-16 lg:mx-60">
@@ -141,16 +143,20 @@ const Apex = () => {
           </h1>
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <img className="object-contain p-6" src={settings} alt="/" />
-            <p className="pb-4">
+            <p className="pb-5">
               Like most video games, finding a new keybind that's both ergonomic
               and available isn't the easiest. Luckily for us, Apex Legends
               already has a dedicated option for an alternative interact key.
-              This makes the job a lot easier, as one of the clusters can just
-              be set to the alternate interact button, with the other cluster
-              remaining on the default "e" key. One possible issue with this
-              would be the removal of the alternate key, requiring another
-              alternate to fill its place. However, I think the benefits of
-              having more organized
+              This makes the job a lot easier, as{" "}
+              <span className="font-bold">
+                one of the clusters can just be set to the alternate interact
+                button, with the other cluster remaining on the default "e" key.{" "}
+              </span>
+              One possible issue with this would be the removal of the alternate
+              key, requiring another alternate to fill its place. However, I
+              think the benefits of having a more organized interaction system
+              would justify the tradeoff of power users needing adjust to
+              another keybind.
             </p>
           </div>
         </div>
@@ -163,13 +169,53 @@ const Apex = () => {
           </h1>
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <img className="object-contain p-6" src={radii} alt="/" />
-            <p className="pb-4">
-              Regrouping the objects solves half of our issue, decreasing the
-              interaction radius for both the character model and the crosshair.
+            <p className="pb-5">
+              This is a tricky area to balance since radii too large can lead to
+              undesired inputs, and radii too small can lead to missed inputs. I
+              think a{" "}
+              <span className="font-bold">very minor reduction in radius</span>{" "}
+              around the character model and around the crosshair, combined with
+              the new interaction keys will{" "}
+              <span className="font-bold">
+                help reduce the current issue of undesired inputs
+              </span>{" "}
+              without leaning too far towards the other side of the spectrum
+              where inputs are missed.
             </p>
           </div>
         </div>
-        <div></div>
+        <div className="lg:pb-8 mx-6 md:mx-16 lg:mx-60">
+          <h2 className="font-heading text-hover-purple">
+            Learnings and Reflection
+          </h2>
+          <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
+            Complexity is a double-edged sword
+          </h1>
+          <p className="pb-5">
+            Sorting the interactions was definitely the hardest part about this
+            process. When I was originally thinking of solutions I found myself
+            overcomplicating game mechanics and trying to make things as
+            specific as possible since I thought the current system was too
+            simple. After looking at the logistics of how many keys you could
+            reasonably allocate and the additional learning it would take to
+            adapt to a new system, I realized any more than 2 categories would
+            just make things worse. The problem wasn’t that the system was too
+            simple, it was just that it needed a bit more clarity. Reflecting on
+            the system, I think its simplicity is a huge benefit to the user
+            experience, and adding an extra key doesn't take away from that, it
+            just provides some additional support to the system.
+          </p>
+          <p>
+            Sometimes it's hard to tell if what you’re looking at is actually a
+            problem, or if it’s just that you’re the problem. I have over a
+            thousand hours in Apex and I was still unsure about whether this was
+            a real problem. This is where research comes in; talking with
+            players in-game and reading Reddit posts and articles not only
+            reassures that you are looking at a real pain point but also
+            provides massive insight into possible solutions and the subtle
+            details on why something is an issue.
+          </p>
+        </div>
       </div>
     </div>
   );
