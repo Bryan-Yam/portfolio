@@ -87,7 +87,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="w-full place-content-center hidden md:flex">
-        <h1 className="text-2xl font-headers pt-4 w-[900px] flex place-content-center">
+        <h1 className="text-2xl font-headers pt-4 px-4 w-[900px] flex place-content-center">
           take a look inside an object (or use the navbar) to explore my room!
         </h1>
       </div>
