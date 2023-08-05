@@ -21,7 +21,7 @@ const Spotify = () => {
               Spotify is my most used mobile app and a mobile app I enjoy using.
               This case study looks into some of the pain points I’ve
               experienced using Spotify over the years and some possible
-              solutions to these issues.
+              solutions to them.
             </p>
           </div>
           <div className="w-full pr-4">
@@ -34,11 +34,11 @@ const Spotify = () => {
           <div className="w-full pr-4">
             <p className="font-bold pb-2">Value proposition </p>
             <p>
-              Improving the Quest experience allows students to find information
-              more easily and complete tasks more efficiently, making the
-              website more accessible. This can improve students’ confidence in
-              completing these processes and reduce inquiries for extra
-              clarification to UW staff.
+              Improving the swipe interactions improves the user experience by
+              reducing frustrations caused by the ambiguity of the swipe
+              function. The addition of more prominent marketplace features
+              benefits Spotify and artists through increased exposure which can
+              help improve sales for events and merch.
             </p>
           </div>
           <div className="w-full pr-4">
@@ -91,11 +91,16 @@ const Spotify = () => {
               swiping through music, I sat down with some of my roommates and
               just got them to try and swipe through music on Spotify with and
               without looking at the screen and looked at their thumb movements.
-              The motion of thumbs moved with a slight angle as users swiped
-              quickly, especially while looking away, which led to inputs in
-              both the vertical and horizontal direction, causing ambiguity when
-              the program determines whether to move to the next song or show
-              the lyrics. This can be seen in the image below, where a slightly
+              The{" "}
+              <span className="font-bold">
+                motion of thumbs moved with a slight angle as users swiped
+                quickly
+              </span>
+              , especially while looking away, which led to inputs in both the
+              vertical and horizontal direction,{" "}
+              <span className="font-bold">causing ambiguity</span> when the
+              program determines whether to move to the next song or show the
+              lyrics. This can be seen in the image below, where a slightly
               slanted swipe leads to the second image, where the lyric tab
               slightly pulls up instead of the third image where a new song is
               played.
@@ -119,7 +124,7 @@ const Spotify = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5 md:pb-8">
               Dropping the mic (onto the screen)
             </h1>
-            <div className="grid lg:grid-cols-2 items-center">
+            <div className="grid lg:grid-cols-2 gap-10 items-center">
               <div className="flex place-content-center pb-5">
                 <figure>
                   <img className="w-[500px]" src={mockups} alt="/" />
@@ -138,28 +143,38 @@ const Spotify = () => {
                   by the user to change songs.
                 </p>
                 <p>
-                  Some of the tradeoffs associated with the new design are the
-                  space constraints with the addition of a new button and a
-                  shift in functionality from a swipe to a button. The addition
-                  of the lyric button may clash with the audio device indicator
-                  located on the left side of the bar, however, since Spotify
-                  already implements a scrolling text feature on this component,
-                  it can be further offset to allow space for the lyric button,
-                  allowing for clearer functions for lyrics without the
-                  information provided by the scrolling text being compromised.
-                  The shift in functionality by using a button may lead to a
-                  clash with muscle memory for more experienced users. The
-                  button is justified since the current system has an ambiguous
-                  function for swipes that are not perfectly horizontal, which
-                  is more detrimental in the long term than having users adapt
-                  to a new, more streamlined system. I also made a simple
-                  prototype to show this feature, which you can see{" "}
+                  Some of the tradeoffs associated with the new design are the{" "}
+                  <span className="font-bold">
+                    space constraints with the addition of a new button
+                  </span>{" "}
+                  and a{" "}
+                  <span className="font-bold">shift in functionality</span> from
+                  a swipe to a button. The addition of the lyric button may
+                  clash with the audio device indicator located on the left side
+                  of the bar. However, since Spotify already implements a
+                  scrolling text feature on this component, it can be further
+                  offset to allow space for the lyric button, allowing for
+                  clearer functions for lyrics without the information provided
+                  by the scrolling text being compromised. The shift in
+                  functionality by using a button may lead to a clash with
+                  muscle memory for more experienced users, but the button is
+                  justified since the{" "}
+                  <span className="font-bold">
+                    current system has an ambiguous function for swipes
+                  </span>{" "}
+                  that are not perfectly horizontal, which is{" "}
+                  <span className="font-bold">
+                    more detrimental in the long term
+                  </span>{" "}
+                  than having users adapt to a new, more streamlined system. I
+                  also made a {""}
                   <a
                     className="underline"
                     href="https://www.figma.com/proto/HluiyOTedIo6LyWiaOCdeX/Spotify-Case-Study?type=design&node-id=3-7&t=qYkpLgUUg3mXTGLz-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A7&show-proto-sidebar=1&mode=design"
                     target="_blank"
                     rel="noreferrer"
                   >
+                    simple prototype to show this feature, which you can see
                     here
                   </a>
                   !
@@ -176,7 +191,7 @@ const Spotify = () => {
             <h1 className="font-headers text-lg md:text-xl lg:text-2xl pb-5">
               Putting artists in the spotlight
             </h1>
-            <div className="grid md:grid-cols-2 items-center">
+            <div className="grid md:grid-cols-2 gap-5 items-center">
               <div className="flex place-content-center pb-5">
                 <figure>
                   <img className="w-[300px]" src={comm} alt="/" />
@@ -187,37 +202,48 @@ const Spotify = () => {
               </div>
               <div>
                 <p className="pb-5">
-                  The current system for finding merchandise and events is hard
-                  to find and doesn’t provide much information, therefore, it is
-                  proposed to have an extra tab at the bottom of the screen to
-                  allow for a dedicated community space for information about
-                  concerts, merchandise, and other events that artists may be
-                  promoting.
+                  The current system for finding merchandise and events is{" "}
+                  <span className="font-bold">
+                    hard to find and doesn’t provide much information
+                  </span>
+                  , therefore, it is proposed to have an extra tab at the bottom
+                  of the screen to allow for a dedicated community space for
+                  information about concerts, merchandise, and other events that
+                  artists may be promoting.
                 </p>
                 <p className="pb-5">
-                  As seen in the mockup, a new community tab can feature
-                  concerts and merchandise by artists followed by users, with
-                  additional content curated based on recent listens, similar
-                  genres, and similar artists just like how Spotify's current
-                  home page provides recommendations for new content. Users can
-                  also bookmark events and access them using the top right
-                  bookmark button, and search for particular artists or events
-                  using the community-specific search function at the top. The
-                  buy buttons take users to websites with more information; for
-                  events and concerts, this would be Ticketmaster or a dedicated
-                  event page if there are multiple artists, and for merch, this
-                  would be the Spotify shop.
+                  As seen in the mockup, a{" "}
+                  <span className="font-bold">
+                    new community tab can feature concerts and merchandise
+                  </span>{" "}
+                  by artists followed by users, with additional content curated
+                  based on recent listens, similar genres, and similar artists
+                  just like how Spotify's current home page provides
+                  recommendations for new content. Users can also bookmark
+                  events and access them using the top right bookmark button,
+                  and search for particular artists or events using the
+                  community-specific search function at the top. The buy buttons
+                  take users to websites with more information; for events and
+                  concerts, this would be Ticketmaster or a dedicated event page
+                  if there are multiple artists, and for merch, this would be
+                  the Spotify shop.
                 </p>
                 <p>
-                  Keeping it consistent with Spotify’s home page, each
-                  horizontal section can be swiped through to expose additional
-                  content, in this case, more concerts and merch. One of the
-                  possible risks of implementing these features more prominently
-                  is that users who are not interested in such content may be
-                  flooded with new content that they are not interested in,
-                  degrading the user experience. For this reason, a new tab was
-                  proposed instead of adding a horizontal section on the home
-                  page.
+                  Keeping it consistent with Spotify’s home page,{" "}
+                  <span className="font-bold">
+                    each horizontal section can be swiped through to expose
+                    additional content
+                  </span>
+                  , in this case, more concerts and merch. One of the possible
+                  risks of implementing these features more prominently is that
+                  users who are not interested in such content may be flooded
+                  with new content that they are not interested in, degrading
+                  the user experience. For this reason, a new tab was proposed
+                  instead of adding a horizontal section on the home page, so
+                  users who would like more engagement with artists through
+                  concerts and merchandise can use the new tab, while those who
+                  prefer to stick to Spotify's main features can simply ignore
+                  it.
                 </p>
               </div>
             </div>

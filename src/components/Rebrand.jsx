@@ -104,12 +104,15 @@ const Rebrand = () => {
               First thing on the agenda was figuring out the best way to
               approach the rebrand. Who better than the head of the lab to get
               that info! The design team spoke with the lab's innovation
-              activator about the vision, goals, and constraints for this
-              project. We also sent out a survey to current members and alumni
-              of the lab to capture insights about their experience with lab's
-              brand, both during their time at the lab and when applying. We
-              compiled and documented our findings and listed the key insights
-              that would define success for this project.
+              activator about{" "}
+              <span className="font-bold">
+                the vision, goals, and constraints for this project
+              </span>
+              . We also sent out a survey to current members and alumni of the
+              lab to capture insights about their experience with lab's brand,
+              both during their time at the lab and when applying. We compiled
+              and documented our findings and listed the key insights that would
+              define success for this project.
             </p>
             <div>
               <p className="font-bold text-sm md:text-lg pb-2 w-full text-center">
@@ -196,24 +199,30 @@ const Rebrand = () => {
             </h1>
             <p className="pb-5">
               After compiling our initial explorations and sorting them out into
-              sections we thought worked well together, we started working on
-              establishing the typography, iconography and colours. The design
-              team compiled a variety of variants for each respective section,
-              and began testing them in combinations to see what stuck. After a
-              lot of deliberations, mixing and matching, we decided on our final
-              typography, iconography, and colours.
+              sections we thought worked well together, we started working on{" "}
+              {""}
+              <span className="font-bold">
+                establishing the typography, iconography and colours
+              </span>
+              . The design team compiled a variety of variants for each
+              respective section, and began testing them in combinations to see
+              what stuck. After a lot of deliberations, mixing and matching, we
+              decided on our final typography, iconography, and colours.
             </p>
             <p className="pb-5">
               Iconography was the easiest to decide, to keep things organized
               and easier for future cohorts, we went with Google Material Design
               Icons; they're sustainable, have many different variants and meet
-              universal standards for icons. For the typography, we chose to
-              have 3 fonts; 2 sans-serif and 1 serif. Originally, the plan was
-              to have 3 sans-serif fonts, but we found that having a serif
-              option was great for adding emphasize and giving our designs an
-              overall "flair" to them. We chose Mulish for the body font, as
-              it's the main font of corporate WSIB, and paired it alongside
-              Figtree (regular) and Fraunces (soft, bolded) for the headers.
+              universal standards for icons. For the typography,{" "}
+              <span className="font-bold">
+                we chose to have 3 fonts; 2 sans-serif and 1 serif
+              </span>
+              . Originally, the plan was to have 3 sans-serif fonts, but we
+              found that having a serif option was great for adding emphasize
+              and giving our designs an overall "flair" to them. We chose Mulish
+              for the body font, as it's the main font of corporate WSIB, and
+              paired it alongside Figtree (regular) and Fraunces (soft, bolded)
+              for the headers.
             </p>
             <div className="flex place-content-center">
               <figure>
@@ -225,22 +234,28 @@ const Rebrand = () => {
             </div>
             <p className="pb-5">
               Determining colours definitely took the longest; we went through
-              many different colours schemes but ultimately decided on a palette
-              that was loosely based off the primary colours of corporate WSIB.
-              We looked at WSIB's colour palette, and looked at different tints,
-              shades, and tones to create new primary colours for the lab. We
-              settled on variants of blue as the lab's main colour, as it was
-              easier to work with for colour and contrast accessibility in
-              comparison to green. Afterwards, we paired up the blues with
+              many different colours schemes but ultimately decided on a{" "}
+              <span className="font-bold">
+                palette that was loosely based off the primary colours of
+                corporate WSIB
+              </span>
+              . We looked at WSIB's colour palette, and looked at different
+              tints, shades, and tones to create new primary colours for the
+              lab. We settled on variants of blue as the lab's main colour, as
+              it was easier to work with for colour and contrast accessibility
+              in comparison to green. Afterwards, we paired up the blues with
               secondary colours and accents for light and dark modes to give the
               lab its own unique look, while still maintaining rooted within
               WSIB. We also examined the colour contrast for different pairings
-              to ensure all use cases met WCAG AA or AAA standards.
+              to {""}
+              <span className="font-bold">
+                ensure all use cases met WCAG AA or AAA standards.
+              </span>
             </p>
             <div className="flex place-content-center">
               <figure>
                 <img className="w-[800px]" src={colours} alt="/" />
-                <figcaption className="pb-4 text-center text-sm">
+                <figcaption className="text-center text-sm">
                   Figure 4. Process of adapting WSIB's colour palette to the new
                   lab colours
                 </figcaption>
@@ -270,15 +285,20 @@ const Rebrand = () => {
               </figure>
             </div>
             <p className="pb-5">
-              Ultimately, we decided on a pastel-picasso style, with some
-              bauhaus and dynamic line accents, as we felt they captured the
-              lab's values really well; the dynamic lines show that the lab is
-              always in motion, whether that be the projects and proof of
-              concepts we develop, our sprints, or the overall growth that
-              happens in the lab. The bauhaus tiles show how the lab often works
-              with abstract ideas and concepts, and the pastel-picasso
-              aesthetics demonstrate the lab's playful side, because innovation
-              starts with curiosity and well, having fun!
+              Ultimately, we decided on a{" "}
+              <span className="font-bold">
+                pastel-picasso style, with some bauhaus and dynamic line accents
+              </span>
+              , as we felt they captured the lab's values really well; the
+              dynamic lines show that the lab is always in motion, whether that
+              be the projects and proof of concepts we develop, our sprints, or
+              the overall growth that happens in the lab. The bauhaus tiles show
+              how the lab often works with abstract ideas and concepts, and the
+              pastel-picasso aesthetics demonstrate the lab's playful side,
+              because{" "}
+              <span className="font-bold">
+                innovation starts with curiosity and well, having fun!
+              </span>
             </p>
             <div className="flex place-content-center">
               <figure className="object-contain">
@@ -291,10 +311,11 @@ const Rebrand = () => {
             <p className="pb-5">
               Logo ideation was a bit difficult due to some restrictions; the
               logo needed to work alongside the corporate WSIB logo, so visual
-              balance and sizing of elements was really important. We decided to
-              have two logos; one that would only be paired with the corporate
-              WSIB logo, and an alternate one that could be used with the
-              corporate logo, or as a standalone.
+              balance and sizing of elements was really important.{" "}
+              <span className="font-bold">We decided to have two logos;</span>{" "}
+              one that would only be paired with the corporate WSIB logo, and an
+              alternate one that could be used with the corporate logo, or as a
+              standalone.
             </p>
             <div className="flex place-content-center">
               <figure>
@@ -336,7 +357,8 @@ const Rebrand = () => {
               <figure>
                 <img className="w-[1200px]" src={web} alt="/" />
                 <figcaption className="pb-4 text-center text-sm">
-                  Figure 9. Landing page ideation and final designs
+                  Figure 9. Landing page ideation (left) and final designs
+                  (right)
                 </figcaption>
               </figure>
             </div>
@@ -344,7 +366,7 @@ const Rebrand = () => {
               <figure>
                 <img className="w-[1200px]" src={proto} alt="/" />
                 <figcaption className="pb-4 text-center text-sm">
-                  Figure 10. Final prototypes
+                  Figure 10. Final prototypes for desktop, tablet and mobile
                 </figcaption>
               </figure>
             </div>
