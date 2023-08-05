@@ -17,7 +17,7 @@ const Landing = () => {
     <div className="w-full h-full relative z-10">
       <div className="w-full flex place-content-center">
         <h1 className="text-lg font-headers py-8 w-[900px] flex md:hidden place-content-center text-center">
-          click an object (or use the navbar) to explore my room!
+          take a look inside an object (or use the navbar) to explore my room!
         </h1>
       </div>
       <div className="hidden md:grid md:grid-cols-[18%_12%_40%_12%_18%] w-full h-full place-items-center">
@@ -88,7 +88,7 @@ const Landing = () => {
       </div>
       <div className="w-full place-content-center hidden md:flex">
         <h1 className="text-2xl font-headers pt-4 w-[900px] flex place-content-center">
-          click an object (or use the navbar) to explore my room!
+          take a look inside an object (or use the navbar) to explore my room!
         </h1>
       </div>
       <div className="grid md:hidden w-full h-full place-items-center">
