@@ -8,13 +8,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [product, setProduct] = useState(false);
   const handleClick = () => setNav(!nav);
-  const handleClickProduct = () => setProduct(!product);
   return (
     <div className="w-full h-24 pt-6 pb-6 relative z-50">
       <div className="px-16 flex justify-start items-center w-full">
-        <div className="flex w-full">
+        <div className="flex w-full items-center">
           <div className="hover:cursor-pointer pb-2 md:pb-0">
             <Link to="/portfolio">
               <span className="text-5xl mr-2 sm:text-5xl font-productsans">
@@ -26,28 +24,19 @@ const Navbar = () => {
             </Link>
           </div>
           <ul className="hidden md:flex justify-end w-11/12">
-            <li className="font-productsans text-2xl pr-5 group">
-              <div className="group-hover:hidden">projects</div>
-              <div className="hidden group-hover:block">
-                <div>
-                  <Link
-                    className=" hover:text-landing-hover-purple hover:cursor-pointer"
-                    to="/product"
-                  >
-                    product
-                  </Link>
-                </div>
-                <div>
-                  <Link
-                    className=" hover:text-landing-hover-purple hover:cursor-pointer"
-                    to="/games"
-                  >
-                    games
-                  </Link>
-                </div>
-              </div>
+            <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+              <Link to="/product">products</Link>
             </li>
-            <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer">
+            <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+              <Link to="/games">games</Link>
+            </li>
+            <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+              <Link to="/fridge">fridge</Link>
+            </li>
+            <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+              <Link to="/about">about</Link>
+            </li>
+            <li className="font-productsans text-2xl  hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
               <a
                 href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
                 target="_blank"
@@ -59,12 +48,6 @@ const Navbar = () => {
                   <ArrowTopRightOnSquareIcon className="w-6" />
                 </span>
               </a>
-            </li>
-            <li className="font-productsans text-2xl pr-5  hover:text-landing-hover-purple hover:cursor-pointer">
-              <Link to="/fridge">fridge</Link>
-            </li>
-            <li className="font-productsans text-2xl  hover:text-landing-hover-purple hover:cursor-pointer">
-              <Link to="/about">about</Link>
             </li>
           </ul>
         </div>
@@ -83,36 +66,27 @@ const Navbar = () => {
             : "absolute w-full bg-white border-b-2 border-zinc-300 font-productsans text-2xl"
         }
       >
-        <li className="border-b-2 border-zinc-300 px-8 py-6">
-          <div className="md:hidden w-full" onClick={handleClickProduct}>
-            {!product ? (
-              <div className="hover:cursor-pointer hover:text-landing-hover-purple">
-                projects
-              </div>
-            ) : (
-              <div>
-                <div className="hover:cursor-pointer">projects</div>
-                <div>
-                  <Link
-                    className=" hover:text-landing-hover-purple hover:cursor-pointer pl-4 text-lg"
-                    to="/product"
-                  >
-                    product
-                  </Link>
-                </div>
-                <div>
-                  <Link
-                    className=" hover:text-landing-hover-purple hover:cursor-pointer pl-4 text-lg"
-                    to="/games"
-                  >
-                    games
-                  </Link>
-                </div>
-              </div>
-            )}
-          </div>
-        </li>
-        <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer">
+        <Link to="/product">
+          <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+            product
+          </li>
+        </Link>
+        <Link to="/games">
+          <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+            games
+          </li>
+        </Link>
+        <Link to="/fridge">
+          <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+            fridge
+          </li>
+        </Link>
+        <Link to="/about">
+          <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
+            about
+          </li>
+        </Link>
+        <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer hover:underline">
           <a
             href="https://drive.google.com/file/d/1yOLStdYpEQDHXaq1BuoJLO1oo25H4dMw/view?usp=sharing"
             target="_blank"
@@ -125,16 +99,6 @@ const Navbar = () => {
             </span>
           </a>
         </li>
-        <Link to="/fridge">
-          <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer">
-            fridge
-          </li>
-        </Link>
-        <Link to="/about">
-          <li className="border-b-2 border-zinc-300 w-full px-8 py-6 hover:text-landing-hover-purple hover:cursor-pointer">
-            about
-          </li>
-        </Link>
       </ul>
     </div>
   );
