@@ -6,7 +6,9 @@ import Games from "../Games";
 const GamesPage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0">
+        <DarkNavbar />
+      </div>
       <Games />
       <Footer />
     </>

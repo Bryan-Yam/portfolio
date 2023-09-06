@@ -136,29 +136,31 @@ const Projects = () => {
             </Link>
           </div>
           <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-black/30">
-            <div class="h-full w-full">
-              <img
-                className="h-full w-full transition-transform duration-500 group-hover:scale-125"
-                src={audioImg}
-                alt=""
-              />
-            </div>
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
-            <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-              <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
-                Audiogram
-              </h1>
-              <p class="mb-3 text-lg md:text-base italic font-body2 font-thin text-kinda-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                creating an online form experience with automated form uploading
-              </p>
-              <button class="font-body2 rounded-full text-kinda-white hover:text-black  py-2 px-5 text-sm bg-kinda-black border-2 hover:bg-kinda-gray border-kinda-gray hover:border-default-bg">
-                Coming Soon!
-              </button>
-            </div>
+            <Link to="/product">
+              <div class="h-full w-full">
+                <img
+                  className="h-full w-full transition-transform duration-500 group-hover:scale-125"
+                  src={audioImg}
+                  alt=""
+                />
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/80 group-hover:via-black/90 group-hover:to-black/100"></div>
+              <div class="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                <h1 class="text-2xl font-headers md:text-2xl lg:text-3xl text-kinda-white pb-4">
+                  Audiogram
+                </h1>
+                <p class="mb-3 text-lg md:text-base italic font-body2 font-thin text-kinda-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  creating an online form experience with an automated form
+                  reader
+                </p>
+                <button class="font-body2 rounded-full text-kinda-white hover:text-black  py-2 px-5 text-sm bg-kinda-black border-2 hover:bg-kinda-gray border-kinda-gray hover:border-default-bg">
+                  Coming Soon!
+                </button>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
-
       <div className="text-kinda-white mx-6 md:mx-16 lg:mx-32 place-items-center text-center">
         <h1 className="w-full font-sans font-light text-2xl md:text-3xl lg:text-4xl py-9">
           looking for game-oriented design? boot up my cartridge.

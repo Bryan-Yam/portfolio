@@ -6,7 +6,9 @@ import Projects from "../Projects";
 const ProjectsPage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0 z-50">
+        <DarkNavbar />
+      </div>
       <Projects />
       <Footer />
     </>

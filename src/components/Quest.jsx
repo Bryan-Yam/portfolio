@@ -191,7 +191,7 @@ const Quest = () => {
               <ul className="list-disc pl-4">
                 <li className="p-1">
                   Related information is grouped together with clear separators,
-                  very simple layout, but highly effective
+                  a very simple layout, but highly effective
                 </li>
                 <li className="p-1">
                   Utilizes the sidebar to link to other areas of the site, in
@@ -250,7 +250,7 @@ const Quest = () => {
               not have much overlap,{" "}
               <span className="font-bold">
                 {" "}
-                leading to more clicks and a higher chance for user error.
+                leading to more clicks and a higher chance of user error.
               </span>
             </p>
           </div>
@@ -269,7 +269,7 @@ const Quest = () => {
                 information architecture in the new design. My goal was to{" "}
                 <span className="font-bold">
                   reduce the amount of sections seen on the landing page and
-                  allow users to navigate throughout the different sections
+                  allow users to navigate through the different sections
                 </span>
                 , in comparison to the current design where the sections are
                 distinctly separated. Next, I designed the basic components for
@@ -299,11 +299,11 @@ const Quest = () => {
             </div>
             <div className="pb-4 md:pb-10 lg:pb-16">
               <p>
-                Once the components were finished, I created a twelve column
+                Once the components were finished, I created a twelve-column
                 grid to help place the content, with multiples of eight used for
                 margins and padding. I had to create some extra variants of the
                 basic cards to account for the more complex information fields,
-                but all in all this was a pretty smooth process. Once that was
+                but all in all, this was a pretty smooth process. Once that was
                 done, all that was left to do was add in the prototype wires for
                 the finished high-fidelity prototype.
               </p>
@@ -356,8 +356,9 @@ const Quest = () => {
               of the tabs contained the same amount of information, but
               spreading it out more evenly across the page and providing ample
               padding for page elements made it a lot easier to read and process
-              information. Working towards finding a balance to the amount and
-              detail of information was an essential part of the entire process.
+              information. Working towards finding a balance between the amount
+              and detail of information was an essential part of the entire
+              process.
             </p>
             <p>
               One of the major issues with the current Quest design was the lack

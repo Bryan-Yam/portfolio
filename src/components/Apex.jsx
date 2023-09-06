@@ -128,9 +128,9 @@ const Apex = () => {
             After some brainstorming, I thought 2 categories (combat and
             non-combat) would be best as it separates interactable objects into
             distinct categories, and doesn't make the interaction system more
-            complex than needed. I chose these categories for a couple reasons:
-            the majority of interaction conflicts occur when a combat and
-            non-combat object are close together. For example, when you're
+            complex than needed. I chose these categories for a couple of
+            reasons: the majority of interaction conflicts occur when a combat
+            and non-combat object are close together. For example, when you're
             trying to open a door and pick up a weapon instead!
           </p>
         </div>
@@ -155,7 +155,7 @@ const Apex = () => {
               One possible issue with this would be the removal of the alternate
               key, requiring another alternate to fill its place. However, I
               think the benefits of having a more organized interaction system
-              would justify the tradeoff of power users needing adjust to
+              would justify the tradeoff of power users needing to adjust to
               another keybind.
             </p>
           </div>
@@ -192,7 +192,7 @@ const Apex = () => {
             Complexity is a double-edged sword
           </h1>
           <p className="pb-5">
-            Sorting the interactions was definitely the hardest part about this
+            Sorting the interactions was definitely the hardest part of this
             process. When I was originally thinking of solutions I found myself
             overcomplicating game mechanics and trying to make things as
             specific as possible since I thought the current system was too
@@ -213,7 +213,7 @@ const Apex = () => {
             players in-game and reading Reddit posts and articles not only
             reassures that you are looking at a real pain point but also
             provides massive insight into possible solutions and the subtle
-            details on why something is an issue.
+            details of why something is an issue.
           </p>
         </div>
       </div>

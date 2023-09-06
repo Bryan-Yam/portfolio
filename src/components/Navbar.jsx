@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="w-full h-24 pt-6 pb-6 relative z-50">
+    <div className="w-full h-24 pt-6 pb-6 relative z-50 bg-white">
       <div className="px-16 flex justify-start items-center w-full">
         <div className="flex w-full items-center">
           <div className="hover:cursor-pointer pb-2 md:pb-0">

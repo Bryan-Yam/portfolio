@@ -6,7 +6,9 @@ import Footer from "../Footer";
 const DRDCPage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0 z-50">
+        <DarkNavbar />
+      </div>
       <DRDC />
       <Footer />
     </>

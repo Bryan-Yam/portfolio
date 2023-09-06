@@ -52,8 +52,8 @@ const DRDC = () => {
             <p className="font-bold pb-2">Team</p>
             <ul className="list-disc pl-4">
               <li className="p-1">1 level/UX designer (me)</li>
-              <li className="p-1">1 Unity Developer</li>
-              <li className="p-1">2 Defence Research Scientists</li>
+              <li className="p-1">1 Unity developer</li>
+              <li className="p-1">2 defence research scientists</li>
             </ul>
           </div>
           <div className="w-full pr-4">
@@ -98,7 +98,7 @@ const DRDC = () => {
             </h1>
             <p className="pb-5 leading-relaxed">
               When I joined the team, this project had been going on for about a
-              year; most of the back-end was already developed, and my
+              year; most of the back end was already developed, and my
               supervisors, the research scientists, had mapped out what they
               wanted to test within the experiments.{" "}
               <span className="font-bold">
@@ -112,7 +112,7 @@ const DRDC = () => {
               To get up to speed, I play-tested the current version of the
               simulation, and familiarized myself with the documentation and
               research plan. Since we were running the experiment using VR, I
-              also setup some VR equipment so I could run tests on my designs
+              also set up some VR equipment so I could run tests on my designs
               later on and see what the participants would see. The team set a
               1km x 1km restriction for each level since our in-game model was
               created to mimic a walking pace. Each level would have guide
@@ -130,7 +130,7 @@ const DRDC = () => {
             </h1>
             <p className="pb-5 leading-relaxed">
               Now that I had the project fundamentals down, I started exploring
-              my options for world building. I used free third party Unity
+              my options for world-building. I used free third-party Unity
               assets alongside Unity's built-in terrain feature to create basic
               levels in different environments; Initially,{" "}
               <span className="font-bold">
@@ -151,7 +151,7 @@ const DRDC = () => {
               </span>
               ; making sure the game rendered all the different environment
               aspects properly (my very first design had some floating trees and
-              places where you could fall of the map), and that the built in
+              places where you could fall off the map), and that the built-in
               data readers were getting accurate information while users were
               walking through and completing tasks.
             </p>
@@ -183,13 +183,13 @@ const DRDC = () => {
               </span>
               . I was in the Air Cadet program for about 6 years, but most of my
               experience with military scenarios still came from video games, so
-              my perception on what to include in each level was very skewed. I
+              my perception of what to include in each level was very skewed. I
               definitely needed to tone down some of the features in my designs.
-              For example, one of the lo-fi mockups I put a mountain to scale,
-              but this would've led to way too many variables to account for and
-              I worked to scale back any aspects that I thought would deter from
-              the main objective of the simulation, which was to accurately
-              identify targets and follow a set path.
+              For example, in one of the lo-fi mockups I put a mountain to
+              scale, but this would've led to way too many variables to account
+              for and I worked to scale back any aspects that I thought would
+              deter from the main objective of the simulation, which was to
+              accurately identify targets and follow a set path.
             </p>
             <div className="flex place-content-center">
               <figure>
@@ -217,16 +217,16 @@ const DRDC = () => {
               use these sessions as both a place to{" "}
               <span className="font-bold">
                 {" "}
-                gather for information about real field operations, as well as
-                for usability testing.{" "}
+                gather information about real field operations, as well as for
+                usability testing.{" "}
               </span>
-              These sessions were my favourite part about the project; not only
-              did I get a lot of great feedback about my designs and small
-              nuances that would help with the realism, but I also just learned
-              a lot about the field and how operations ran. There were a lot of
-              really cool stories and it definitely helped me not only
-              understand the physical environments they worked in, but also the
-              psychological aspects of missions too.
+              These sessions were my favourite part of the project; not only did
+              I get a lot of great feedback about my designs and small nuances
+              that would help with the realism, but I also learned a lot about
+              the field and how operations ran. There were a lot of really cool
+              stories and it definitely helped me not only understand the
+              physical environments they worked in, but also the psychological
+              aspects of missions.
             </p>
             <div>
               <p className="font-bold text-sm md:text-lg pb-2 w-full text-center">
@@ -336,7 +336,7 @@ const DRDC = () => {
               research scientists to
               <span className="font-bold">
                 {" "}
-                create topographic maps which would be used within the minimap
+                create topographic maps that be used within the minimap
               </span>{" "}
               that was within the simulation. Since the terrains for all the
               trials were created using Unity's built-in terrain tool, we were
@@ -350,8 +350,8 @@ const DRDC = () => {
               difference between each number with a constant step size; if the
               difference was greater than the step size, it would place a dot
               for that height, and repeat on the next difference threshold. Each
-              image was parsed through 4 times; one for each side, and then
-              combined to create the final map.
+              image was parsed 4 times; one for each side, and then combined to
+              create the final map.
             </p>
             <div className="flex place-content-center pb-5">
               <figure>
@@ -384,7 +384,7 @@ const DRDC = () => {
               results.
             </p>
             <p className="leading-relaxed">
-              The user interviews and testing were also an essential part to the
+              The user interviews and testing were also an essential part of the
               project, not only due to the great insights I received, but also
               because of the empathy aspect. After the sessions, I felt like I
               knew a lot more about the psychology around field operations and

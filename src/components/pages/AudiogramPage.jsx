@@ -1,7 +1,14 @@
 import React from "react";
+import DarkNavbar from "../DarkNavbar";
+import Audiogram from "../Audiogram";
+import Footer from "../Footer";
 
 const AudiogramPage = () => {
-  return <div>AudiogramPage</div>;
+  <>
+    <DarkNavbar />
+    <Audiogram />
+    <Footer />
+  </>;
 };
 
 export default AudiogramPage;

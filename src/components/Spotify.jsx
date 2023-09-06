@@ -27,7 +27,7 @@ const Spotify = () => {
           <div className="w-full pr-4">
             <p className="font-bold pb-2">Problem statement</p>
             <p>
-              How might we improve spotify's community and lyric features to
+              How might we improve Spotify's community and lyric features to
               create a more streamlined and cohesive experience for users?
             </p>
           </div>
@@ -64,7 +64,7 @@ const Spotify = () => {
                 swipes
               </li>
               <li className="p-1">
-                increased revenue and incentive for artists to create more
+                increased revenue and incentives for artists to create more
                 merchandise and host events
               </li>
             </ul>

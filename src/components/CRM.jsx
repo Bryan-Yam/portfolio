@@ -24,8 +24,8 @@ const CRM = () => {
                 Corporate WSIB approached the innovation lab to create a
                 dashboard experience that compiled information about employers
                 to create an easier experience for WSIB employees. Currently,
-                this information is found from a variety of different sources
-                such spreadsheets and other software applications.
+                this information is found in a variety of different sources such
+                as spreadsheets and other software applications.
               </p>
               <p className="pt-2">
                 <span className="font-bold">Note:</span> Due to the sensitive
@@ -38,8 +38,8 @@ const CRM = () => {
               <p className="font-bold pb-2">Problem statement</p>
               <p>
                 How might we create a CRM dashboard that compiles a variety of
-                data fields while still providing users a familiar and simple
-                experience?
+                data fields while still providing users with a familiar and
+                simple experience?
               </p>
             </div>
             <div className="w-full pr-4">
@@ -102,7 +102,7 @@ const CRM = () => {
               Getting up to speed in a dash(board)
             </h1>
             <p className="pb-5">
-              Our team joined this project about halfway into it's projected
+              Our team joined this project about halfway into its projected
               timeline, so we were carrying over work from the previous team. We
               got up to speed with the project timelines, mockups, and
               documentation. Our first task was to prepare the mockups that were
@@ -110,7 +110,7 @@ const CRM = () => {
               with different teams within corporate WSIB to{" "}
               <span className="font-bold">
                 {" "}
-                gain insight about different aspects of the dashboard
+                gain insight into different aspects of the dashboard
               </span>
               , such as its ease of use, features, and overall opinion of the
               structure and content.
@@ -138,7 +138,7 @@ const CRM = () => {
                 Our user interviews had more qualitative questions
               </span>
               , as we could easily prompt users on specific areas and have more
-              time to learn about their thought process and pain points while
+              time to learn about their thought processes and pain points while
               interacting with the prototype.{" "}
               <span className="font-bold">
                 For the Maze session, we focused heavily on KPIs
@@ -172,18 +172,18 @@ const CRM = () => {
                     <p>
                       2. The search bar should have more functionality, such as
                       for phone numbers, and glossary terms. Users were also
-                      confused on whether it was a universal search bar, or page
-                      specific.
+                      confused about whether it was a universal search bar, or
+                      page specific.
                     </p>
                     <p>
-                      3. A majority of user's struggled to locate a company that
+                      3. A majority of users struggled to locate a company that
                       had similar names within our Maze testing, with this task
                       having the highest drop rate.
                     </p>
                     <p>
                       4. Some terms and acronyms were either not used or had
                       different names depending on the team, leading to
-                      confusion and misunderstanding from the participants.
+                      confusion and misunderstanding amongst the participants.
                     </p>
                   </div>
                 </div>
@@ -223,15 +223,15 @@ const CRM = () => {
               Applying our insights from our testing, we made some final touches
               to the dashboard. Some of the changes made were to expand all
               acronyms, as well as address alternate names within the glossary
-              and rearranging data fields to create a more intuitive flow for
+              and rearrange data fields to create a more intuitive flow for
               different teams. We also{" "}
               <span className="font-bold">
                 implemented solutions to address the conflicting opinions
               </span>{" "}
-              we noted during our user testing: we were able to get some
+              we noted during our user testing. We were able to get some
               examples of current internal software used by our participants to
               reword or reformat fields in the dashboard, making a future
-              transition to the dashboard easier, and creating a half page
+              transition to the dashboard easier, and creating a half-page
               design to accommodate more use cases, such as the dashboard being
               used in conjunction with a spreadsheet.
             </p>

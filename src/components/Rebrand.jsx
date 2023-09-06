@@ -42,10 +42,10 @@ const Rebrand = () => {
             <div className="w-full pr-0 md:pr-4">
               <p className="font-bold pb-2">Value proposition </p>
               <p>
-                Rebranding the lab allows external parties to get a better grasp
-                of the lab's values, projects, and environment. Internally, it
-                helps build cohesion across lab assets by setting clear
-                guidelines for use cases and styles.
+                Rebranding the lab allows external parties to better grasp the
+                lab's values, projects, and environment. Internally, it helps
+                build cohesion across lab assets by setting clear guidelines for
+                use cases and styles.
               </p>
             </div>
             <div className="w-full pr-0 md:pr-4">
@@ -153,7 +153,7 @@ const Rebrand = () => {
             <div className="pb-5">
               <p>
                 After sorting out the milestones the team planned to achieve, we
-                ordered them based on priority and developed a gantt chart to
+                ordered them based on priority and developed a Gantt chart to
                 document and track our progress, as well as noting sprint
                 periods and establishing weekly syncs (noted with the red flags)
                 to provide updates to our stakeholders and gain feedback.
@@ -205,7 +205,7 @@ const Rebrand = () => {
                 establishing the typography, iconography and colours
               </span>
               . The design team compiled a variety of variants for each
-              respective section, and began testing them in combinations to see
+              respective section and began testing them in combinations to see
               what stuck. After a lot of deliberations, mixing and matching, we
               decided on our final typography, iconography, and colours.
             </p>
@@ -218,11 +218,11 @@ const Rebrand = () => {
                 we chose to have 3 fonts; 2 sans-serif and 1 serif
               </span>
               . Originally, the plan was to have 3 sans-serif fonts, but we
-              found that having a serif option was great for adding emphasize
-              and giving our designs an overall "flair" to them. We chose Mulish
-              for the body font, as it's the main font of corporate WSIB, and
-              paired it alongside Figtree (regular) and Fraunces (soft, bolded)
-              for the headers.
+              found that having a serif option was great for adding emphasis and
+              giving our designs an overall "flair". We chose Mulish for the
+              body font, as it's the main font of corporate WSIB, and paired it
+              alongside Figtree (regular) and Fraunces (soft, bolded) for the
+              headers.
             </p>
             <div className="flex place-content-center">
               <figure>
@@ -234,12 +234,12 @@ const Rebrand = () => {
             </div>
             <p className="pb-5">
               Determining colours definitely took the longest; we went through
-              many different colours schemes but ultimately decided on a{" "}
+              many different colour schemes but ultimately decided on a{" "}
               <span className="font-bold">
-                palette that was loosely based off the primary colours of
+                palette that was loosely based on the primary colours of
                 corporate WSIB
               </span>
-              . We looked at WSIB's colour palette, and looked at different
+              . We looked at WSIB's colour palette and looked at different
               tints, shades, and tones to create new primary colours for the
               lab. We settled on variants of blue as the lab's main colour, as
               it was easier to work with for colour and contrast accessibility
@@ -271,7 +271,7 @@ const Rebrand = () => {
             </h1>
             <p className="pb-5">
               In my opinion, the hardest part of the rebrand was finalizing the
-              overall visuals and style to be implemented. We explored a lot of
+              overall visuals and style to be implemented. We explored many
               different visual styles (neobrutalism, metamodernism, minimalism,
               to name a few), and ultimately decided on a pastel-picasso style,
               with some bauhaus and moving line accents.
@@ -293,11 +293,11 @@ const Rebrand = () => {
               dynamic lines show that the lab is always in motion, whether that
               be the projects and proof of concepts we develop, our sprints, or
               the overall growth that happens in the lab. The bauhaus tiles show
-              how the lab often works with abstract ideas and concepts, and the
-              pastel-picasso aesthetics demonstrate the lab's playful side,
-              because{" "}
+              how the lab often starts with abstract ideas and concepts and
+              works make them unified, and the pastel-picasso aesthetics
+              demonstrate the lab's playful side, because{" "}
               <span className="font-bold">
-                innovation starts with curiosity and well, having fun!
+                innovation starts with curiosity and, well, having fun!
               </span>
             </p>
             <div className="flex place-content-center">
@@ -349,9 +349,9 @@ const Rebrand = () => {
             </div>
             <p className="pb-5">
               Afterwards, we drafted some different designs for each of the
-              pages, and made some final touches to develop our completed
-              mockups for desktop, tablet, and mobile views. After completing
-              the prototypes for the designs, we had finished the lab rebrand!
+              pages and made some final touches to develop our completed mockups
+              for desktop, tablet, and mobile views. After completing the
+              prototypes for the designs, we finished the lab rebrand!
             </p>
             <div className="flex place-content-center">
               <figure>
@@ -380,9 +380,9 @@ const Rebrand = () => {
             </h1>
             <p className="pb-5">
               After cleaning up our Figma pages, documentation, and style
-              guides, the team also looked into low/no code solutions such as
+              guides, the team also looked into low/no-code solutions such as
               Framer and Webflow to lessen the burden on our development team.
-              Leveraging low/no code solutions had a lot of benefits: it would
+              Leveraging low/no-code solutions had a lot of benefits: it would
               allow the design team to cover the majority of work to maintain
               the website, such as pushing updates to projects and cohorts, as
               well as allow the possibility to create proof of concepts without
@@ -393,10 +393,10 @@ const Rebrand = () => {
             </p>
             <p className="pb-5">
               Reflecting back on this project, it definitely had a lot of
-              firsts; the team had a lot of creative freedom and ability to
+              firsts; the team had a lot of creative freedom and the ability to
               explore different designs; I thought we did quite well in general,
-              one thing I would've done different would be to establish what we
-              wanted out of the designs at first, and then explored what
+              but one thing I would've done differently would be to establish
+              what we wanted out of the designs at first and then explored what
               features and styles we could use afterwards. I think we did a
               really good job at justifying the final decisions we made, but we
               often had a variety of designs first, and then tried to pick and

@@ -163,8 +163,8 @@ const TFTDamage = () => {
                     the screen.
                   </li>
                   <li className="p-1">
-                    Minimap at the bottom of the group is slightly redundant;
-                    conveys the same information as the icons above.
+                    Minimap at the bottom of the group is slightly redundant as
+                    it conveys the same information as the icons above.
                   </li>
                 </ul>
               </div>
@@ -176,7 +176,7 @@ const TFTDamage = () => {
                     the left of the screen.
                   </li>
                   <li className="p-1">
-                    Utilizes tooltips to convey more detailed information,
+                    Utilizes tooltips to convey more detailed information, and
                     allows users to pick and choose which areas they need more
                     info for depending on the situation.
                   </li>
@@ -191,7 +191,7 @@ const TFTDamage = () => {
                   </li>
                   <li className="p-1">
                     Uses detailed icons to avoid text clutter, which can also
-                    allow users to process information easier.
+                    allow users to process information more easily.
                   </li>
                 </ul>
               </div>
@@ -212,10 +212,11 @@ const TFTDamage = () => {
                 <h2 className="font-bold pb-2 text-amber-400"> Yellow</h2>
                 <ul className="list-disc pl-4">
                   <li className="p-1">
-                    Largest portion of the screen, however, only shows detailed
-                    UI when the user interacts with the section. For example,
-                    only when you select a unit on the board do all hexes
-                    highlight to show a player where that unit can be placed.
+                    The largest portion of the screen, however, only shows
+                    detailed UI when the user interacts with the section. For
+                    example, only when you select a unit on the board do all
+                    hexes highlight to show a player where that unit can be
+                    placed.
                   </li>
                 </ul>
               </div>
@@ -227,7 +228,7 @@ const TFTDamage = () => {
                     contains information relevant to said purpose.
                   </li>
                   <li className="p-1">
-                    Each section displays the minimum about of high level
+                    Each section displays the minimum amount of high-level
                     information needed; allowing users to gain more detailed
                     info by interacting with a particular section.
                   </li>
@@ -258,7 +259,7 @@ const TFTDamage = () => {
             <p className="pb-5">
               Originally I was looking at placing the damage numbers under the
               timer to keep things symmetrical at the top, but doing so may
-              clash with the bench at the other side of the board, which could
+              clash with the bench on the other side of the board, which could
               both cause the player to lose information about the opponent and
               cause a lot of visual conflicts due to the lack of space and some
               champions being larger than others. Because of that, the option I

@@ -6,7 +6,9 @@ import Footer from "../Footer";
 const RebrandPage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0">
+        <DarkNavbar />
+      </div>
       <Rebrand />
       <Footer />
     </>

@@ -6,7 +6,9 @@ import Photos from "../Photos";
 const FridgePage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0 z-50">
+        <DarkNavbar />
+      </div>
       <Photos />
       <Footer />
     </>

@@ -12,6 +12,7 @@ import TFTDamagePage from "./components/pages/TFTDamagePage";
 import SpotifyPage from "./components/pages/SpotifyPage";
 import DRDCPage from "./components/pages/DRDCPage";
 import CRMPage from "./components/pages/CRMPage";
+import AudiogramPage from "./components/pages/AudiogramPage";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/spotify" element={<SpotifyPage />} />
         <Route path="/drdc" element={<DRDCPage />} />
         <Route path="/crm" element={<CRMPage />} />
+        <Route path="/audiogram" element={<AudiogramPage />} />
       </Routes>
     </>
   );

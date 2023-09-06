@@ -6,7 +6,9 @@ import Apex from "../Apex";
 const ApexPage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0 z-50">
+        <DarkNavbar />
+      </div>
       <Apex />
       <Footer />
     </>
