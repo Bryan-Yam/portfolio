@@ -6,7 +6,9 @@ import Footer from "../Footer";
 const QuestPage = () => {
   return (
     <>
-      <DarkNavbar />
+      <div className="sticky top-0 z-50">
+        <DarkNavbar />
+      </div>
       <Quest />
       <Footer />
     </>

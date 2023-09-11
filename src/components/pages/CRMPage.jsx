@@ -6,7 +6,7 @@ import Footer from "../Footer";
 const CRMPage = () => {
   return (
     <>
-      <div className="sticky top-0">
+      <div className="sticky top-0 z-50">
         <DarkNavbar />
       </div>
       <CRM />

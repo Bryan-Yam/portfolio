@@ -5,7 +5,9 @@ import Footer from "../Footer";
 
 const AudiogramPage = () => {
   <>
-    <DarkNavbar />
+    <div className="sticky top-0 z-50">
+      <DarkNavbar />
+    </div>
     <Audiogram />
     <Footer />
   </>;
