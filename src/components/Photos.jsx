@@ -4,7 +4,7 @@ import SpotifyImg from "../assets/Fridge/spot.png";
 import tonImg from "../assets/Fridge/ton.png";
 import claptrapImg from "../assets/Fridge/claptrap.png";
 import WhirliImg from "../assets/Fridge/whirli.png";
-import frisbeeImg from "../assets/Fridge/frisbee.png";
+import frisbeeImg from "../assets/Fridge/Screenshot_20231013-214418.png";
 
 const Photos = () => {
   return (
@@ -88,7 +88,7 @@ const Photos = () => {
             </div>
             <div>
               <p className="text-2xl font-handwriting text-center w-full p-2">
-                frisbee adventures (in the cold)
+                I instantly threw the disc away after :(
               </p>
             </div>
           </div>
