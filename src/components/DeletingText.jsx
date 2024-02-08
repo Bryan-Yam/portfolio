@@ -38,7 +38,7 @@ const DeletingText = () => {
             strings: [
               "a product designer based out of toronto.",
               "an accessible design enthusiast.",
-              "contrary to popular belief, not an actual yam",
+              "contrary to popular belief, not an actual yam.",
               "a systems design engineering student.",
               "a frisbee player for UW.",
               "a mediocre video and board game player.",
