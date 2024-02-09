@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1755de42.css",
-    "main.js": "/static/js/main.dbe886bb.js",
+    "main.css": "/static/css/main.d06e28bb.css",
+    "main.js": "/static/js/main.e4751f38.js",
     "static/media/apex.png": "/static/media/apex.00d2d304679a11133a92.png",
     "static/media/websitemock.png": "/static/media/websitemock.821ceb1bb3f368261146.png",
     "static/media/proto.png": "/static/media/proto.6ef653b692bd7887aafa.png",
@@ -49,7 +49,6 @@
     "static/media/maze.png": "/static/media/maze.24c2fff5d46dd3a7017b.png",
     "static/media/scroll.png": "/static/media/scroll.1836a675494dfc257797.png",
     "static/media/mount.png": "/static/media/mount.01924359cbb999e289d5.png",
-    "static/media/frisbee.png": "/static/media/frisbee.0934c46ea4366996effa.png",
     "static/media/initial explore.png": "/static/media/initial explore.3e5632cc90aaebee647f.png",
     "static/media/stalking.png": "/static/media/stalking.137e392fad9d6afca671.png",
     "static/media/typo.png": "/static/media/typo.e9f0b4a97133355f23e9.png",
@@ -61,17 +60,18 @@
     "static/media/ton.png": "/static/media/ton.c5dd0b0f4a16c19430c6.png",
     "static/media/cloud.png": "/static/media/cloud.56b969a66c8d252a66c1.png",
     "static/media/inspo.png": "/static/media/inspo.5ce87808cf1626ef3ba1.png",
+    "static/media/spotcasenew.png": "/static/media/spotcasenew.5401bc9b934cb5264452.png",
     "static/media/myap.png": "/static/media/myap.b042f76557d1c388c728.png",
     "static/media/topo.png": "/static/media/topo.7a86f62401ef74a34733.png",
     "static/media/2000.png": "/static/media/2000.f02485eedfd0a9eef250.png",
     "static/media/mock.png": "/static/media/mock.cec7c0a94cc568792417.png",
+    "static/media/Screenshot_20231013-214418.png": "/static/media/Screenshot_20231013-214418.4e93f841a9780d5fecdf.png",
     "static/media/ziggs.png": "/static/media/ziggs.f59e5ae4276f2860e833.png",
     "static/media/wii.png": "/static/media/wii.1eb36b54f1e54c34af30.png",
     "static/media/irelia.png": "/static/media/irelia.e4d7b063c5a712d0d0c0.png",
     "static/media/sion.png": "/static/media/sion.efd825e600dc8e0c4f5b.png",
     "static/media/udyr.png": "/static/media/udyr.b4cd1ef0d52ef95fc740.png",
     "static/media/urgot.png": "/static/media/urgot.4d60359e365daa3ee390.png",
-    "static/media/spotcase.png": "/static/media/spotcase.d4aca9937a35a46dd1ad.png",
     "static/media/settings.png": "/static/media/settings.48851e8e9bf1eec6a631.png",
     "static/media/yorick.png": "/static/media/yorick.eb8aa6d79e2f7d772169.png",
     "static/media/whirli.png": "/static/media/whirli.de5ef117e7c057e647a6.png",
@@ -89,7 +89,6 @@
     "static/media/title.png": "/static/media/title.5343b0e3efe3925915c2.png",
     "static/media/cartridge_dark_tp.png": "/static/media/cartridge_dark_tp.bf909b65c4a686c4c1bb.png",
     "static/media/audiolanding.png": "/static/media/audiolanding.c3832e5a2b1832202bdf.png",
-    "static/media/crmlanding.png": "/static/media/crmlanding.eabc1f7301dfce8cf8cf.png",
     "static/media/quest.png": "/static/media/quest.7869634bda1db10031b4.png",
     "static/media/currenthome.png": "/static/media/currenthome.59366eb4020bea212eb5.png",
     "static/media/spot.png": "/static/media/spot.df0fbb7aa248d4dd3ae6.png",
@@ -97,6 +96,7 @@
     "static/media/tft-case.png": "/static/media/tft-case.b1dfebbca6a5ce2fbb9f.png",
     "static/media/box_overflow_tp.png": "/static/media/box_overflow_tp.48af1ceb7fe96089a2b1.png",
     "static/media/projectscope.png": "/static/media/projectscope.d61caaffcd387e78bf2c.png",
+    "static/media/crmlanding.png": "/static/media/crmlanding.9cba2cb9f52ebcb0c6d5.png",
     "static/media/fridge_overflow.png": "/static/media/fridge_overflow.3c162f8360d3d181f89f.png",
     "static/media/shelf_overflow.png": "/static/media/shelf_overflow.b53742bf4bfc73ca9d8f.png",
     "static/media/questport.png": "/static/media/questport.2c0823f7d73cee0cb91b.png",
@@ -109,11 +109,11 @@
     "static/media/cartridge_default.png": "/static/media/cartridge_default.1c7572846f337586061d.png",
     "static/media/crane.png": "/static/media/crane.a9bc547fa6b85fd73e9e.png",
     "index.html": "/index.html",
-    "main.1755de42.css.map": "/static/css/main.1755de42.css.map",
-    "main.dbe886bb.js.map": "/static/js/main.dbe886bb.js.map"
+    "main.d06e28bb.css.map": "/static/css/main.d06e28bb.css.map",
+    "main.e4751f38.js.map": "/static/js/main.e4751f38.js.map"
   },
   "entrypoints": [
-    "static/css/main.1755de42.css",
-    "static/js/main.dbe886bb.js"
+    "static/css/main.d06e28bb.css",
+    "static/js/main.e4751f38.js"
   ]
 }
