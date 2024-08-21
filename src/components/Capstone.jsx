@@ -40,7 +40,7 @@ const Capstone = () => {
                 {" "}
                 Creating a system that can help medical professionals better
                 understand and analyze cognitive disorders will lead to
-                healthier lives in society.
+                healthier and longer lives in society.
               </p>
             </div>
             <div className="w-full pr-0 md:pr-4">
