@@ -1,0 +1,58 @@
+{
+  "name": "tailwind-portfolio",
+  "homepage": "http://Bryan-Yam.github.io/portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "-": "^0.0.1",
+    "@heroicons/react": "^2.0.16",
+    "@react-three/drei": "^9.83.9",
+    "@react-three/fiber": "^8.14.1",
+    "@react-three/postprocessing": "^2.15.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/three": "^0.156.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.2",
+    "react-scripts": "5.0.1",
+    "react-snap": "^1.23.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "save-dev": "^0.0.1-security",
+    "three": "^0.156.1",
+    "typewriter-effect": "^2.19.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/Bryan-Yam/portfolio.git",
+    "postbuild": "react-snap"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.2.7"
+  }
+}
