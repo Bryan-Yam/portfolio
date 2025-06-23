@@ -1,16 +1,16 @@
 import React from "react";
-import DeletingText from "../DeletingText";
-import Landing from "../Landing";
-import Navbar from "../Navbar";
+import LandingN from "../LandingN";
+import DarkNavbar from "../DarkNavbar";
+import Footer from "../Footer";
 
 const LandingPage = () => {
   return (
     <>
       <div className="sticky top-0 z-50">
-        <Navbar />
+        <DarkNavbar />
       </div>
-      <DeletingText />
-      <Landing />
+      <LandingN />
+      <Footer />
     </>
   );
 };

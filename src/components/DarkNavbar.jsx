@@ -4,29 +4,66 @@ import {
   XMarkIcon,
   ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 export const DarkNavbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleScrollToProduct = () => {
+    if (location.pathname === "/" && location.hash === "#product") {
+      // Already here, force scroll again
+      const el = document.getElementById("product");
+      if (el) {
+        const yOffset = -100;
+        const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+    } else if (location.pathname === "/") {
+      // Already on page but different hash
+      navigate("#product");
+    } else {
+      // Navigate to homepage with hash
+      navigate("/#product");
+    }
+    setNav(false); // close mobile menu if open
+  };
 
   return (
     <div className="w-full h-24 pt-6 pb-6 relative z-50 bg-default-bg">
       <div className="px-16 flex justify-start items-center w-full">
         <div className="flex w-full ">
           <div className="hover:cursor-pointer pb-2 md:pb-0">
-            <Link to="/portfolio">
+            <span
+              onClick={(e) => {
+                e.preventDefault();
+                if (location.pathname !== "/") {
+                  navigate("/");
+                  // Delay scrollToTop until after route change
+                  setTimeout(
+                    () => window.scrollTo({ top: 0, behavior: "smooth" }),
+                    100
+                  );
+                } else {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
+              }}
+              className="cursor-pointer"
+            >
               <span className="text-5xl mr-2 sm:text-5xl font-productsans text-kinda-white">
                 bryan
               </span>
               <span className="text-5xl mr-2 sm:text-5xl font-productsans text-goated-purple">
                 yam
               </span>
-            </Link>
+            </span>
           </div>
           <ul className="hidden md:flex justify-end w-11/12">
             <li className="font-productsans text-2xl pr-5  text-kinda-white hover:text-hover-purple hover:cursor-pointer hover:underline">
-              <Link to="/product">products</Link>
+              <span onClick={handleScrollToProduct}>products</span>
             </li>
             <li className="font-productsans text-2xl pr-5  text-kinda-white hover:text-hover-purple hover:cursor-pointer hover:underline">
               <Link to="/games">games</Link>
@@ -67,11 +104,13 @@ export const DarkNavbar = () => {
             : "absolute w-full bg-default-bg border-b-2 border-zinc-300 font-productsans text-2xl text-kinda-white"
         }
       >
-        <Link to="/product">
-          <li className="border-b-2 px-8 py-6 border-zinc-300 w-full text-kinda-white hover:text-hover-purple hover:cursor-pointer hover:underline">
-            products
-          </li>
-        </Link>
+        <li
+          className="border-b-2 px-8 py-6 border-zinc-300 w-full text-kinda-white hover:text-hover-purple hover:cursor-pointer hover:underline"
+          onClick={handleScrollToProduct}
+        >
+          products
+        </li>
+
         <Link to="/games">
           <li className="border-b-2 px-8 py-6 border-zinc-300 w-full text-kinda-white hover:text-hover-purple hover:cursor-pointer hover:underline">
             games

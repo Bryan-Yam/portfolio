@@ -4,9 +4,14 @@ import tftImg from "../assets/tft-case.png";
 import setImg from "../assets/tft-set.png";
 import unboxImg from "../assets/box_unopened_tp.png";
 import overflowboxImg from "../assets/box_overflow_tp.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Games = () => {
+  const navigate = useNavigate();
+
+  const goToProducts = () => {
+    navigate("/#product");
+  };
   return (
     <div className="bg-default-bg px-8 lg:px-48">
       <div className="text-kinda-white md:mx-24 lg:mx-56 mx-10 place-items-center text-center">
@@ -105,15 +110,13 @@ const Games = () => {
         </h1>
       </div>
       <div className="flex w-full justify-center">
-        <div className="group relative cursor-pointer">
-          <Link to="/product">
-            <div className="transition-opacity duration-1000 ease-in-out group-hover:opacity-0">
-              <img src={unboxImg} alt="/" />
-            </div>
-            <div className="absolute top-0 left-0 opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-100">
-              <img src={overflowboxImg} alt="/" />
-            </div>
-          </Link>
+        <div className="group relative cursor-pointer" onClick={goToProducts}>
+          <div className="transition-opacity duration-1000 ease-in-out group-hover:opacity-0">
+            <img src={unboxImg} alt="/" />
+          </div>
+          <div className="absolute top-0 left-0 opacity-0 transition-opacity duration-1000 ease-in-out group-hover:opacity-100">
+            <img src={overflowboxImg} alt="/" />
+          </div>
         </div>
       </div>
     </div>

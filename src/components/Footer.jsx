@@ -10,7 +10,11 @@ const Footer = () => {
       </p>
       <div className="flex w-full place-content-center gap-5">
         <div>
-          <a href="mailto:b2yam@uwaterloo.ca" target="_blank" rel="noreferrer">
+          <a
+            href="mailto:bryanyam808@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <EnvelopeIcon className="w-6" />
           </a>
         </div>

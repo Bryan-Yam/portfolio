@@ -103,7 +103,7 @@ const BookSection = () => {
           <p>
             Can't find what you're looking for? Shoot me an
             <a
-              href="mailto:b2yam@uwaterloo.ca"
+              href="mailto:bryanyam808@gmail.com"
               className="hover-pointer text-text-purple"
             >
               {" "}
