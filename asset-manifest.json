@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0b79b07.css",
-    "main.js": "/static/js/main.ca22c120.js",
+    "main.css": "/static/css/main.7904b1f5.css",
+    "main.js": "/static/js/main.b0ee7cf7.js",
     "static/media/apex.png": "/static/media/apex.00d2d304679a11133a92.png",
     "static/media/websitemock.png": "/static/media/websitemock.821ceb1bb3f368261146.png",
     "static/media/proto.png": "/static/media/proto.6ef653b692bd7887aafa.png",
@@ -60,7 +60,6 @@
     "static/media/ton.png": "/static/media/ton.c5dd0b0f4a16c19430c6.png",
     "static/media/cloud.png": "/static/media/cloud.56b969a66c8d252a66c1.png",
     "static/media/inspo.png": "/static/media/inspo.5ce87808cf1626ef3ba1.png",
-    "static/media/spotcasenew.png": "/static/media/spotcasenew.5401bc9b934cb5264452.png",
     "static/media/myap.png": "/static/media/myap.b042f76557d1c388c728.png",
     "static/media/topo.png": "/static/media/topo.7a86f62401ef74a34733.png",
     "static/media/2000.png": "/static/media/2000.f02485eedfd0a9eef250.png",
@@ -76,20 +75,17 @@
     "static/media/yorick.png": "/static/media/yorick.eb8aa6d79e2f7d772169.png",
     "static/media/whirli.png": "/static/media/whirli.de5ef117e7c057e647a6.png",
     "static/media/main.png": "/static/media/main.3084d5caaeca66a44607.png",
-    "static/media/box_overflow.png": "/static/media/box_overflow.3a7ae4a3a86cfc832ca7.png",
     "static/media/Components.jpg": "/static/media/Components.251de461806ee17cb23c.jpg",
     "static/media/Frames.jpg": "/static/media/Frames.6c629efe71ba5a72a989.jpg",
     "static/media/currentpage.png": "/static/media/currentpage.e68c9cfc7840d24891d5.png",
     "static/media/changes.png": "/static/media/changes.994ac56cb7550ecb88af.png",
     "static/media/clock.png": "/static/media/clock.dcce8fc872451217c18c.png",
     "static/media/rebrandheader.png": "/static/media/rebrandheader.607fe2ec39f1dc654e8b.png",
-    "static/media/box_unopened.png": "/static/media/box_unopened.0e468b0ff27f6f4e0bb6.png",
     "static/media/box_unopened_tp.png": "/static/media/box_unopened_tp.6e88801e73c17bf6d4e4.png",
     "static/media/land.png": "/static/media/land.6f301f2515cad8545ac4.png",
     "static/media/claptrap.png": "/static/media/claptrap.efb55072201d101e3dd4.png",
     "static/media/title.png": "/static/media/title.5343b0e3efe3925915c2.png",
     "static/media/cartridge_dark_tp.png": "/static/media/cartridge_dark_tp.bf909b65c4a686c4c1bb.png",
-    "static/media/quest.png": "/static/media/quest.7869634bda1db10031b4.png",
     "static/media/designs.png": "/static/media/designs.feb07daf804291cdfc35.png",
     "static/media/currenthome.png": "/static/media/currenthome.59366eb4020bea212eb5.png",
     "static/media/spot.png": "/static/media/spot.df0fbb7aa248d4dd3ae6.png",
@@ -100,23 +96,16 @@
     "static/media/capstone.png": "/static/media/capstone.a46a5b43129c7ddce49a.png",
     "static/media/titleimg.png": "/static/media/titleimg.fc848a077243d9df481b.png",
     "static/media/crmlanding.png": "/static/media/crmlanding.9cba2cb9f52ebcb0c6d5.png",
-    "static/media/fridge_overflow.png": "/static/media/fridge_overflow.3c162f8360d3d181f89f.png",
-    "static/media/shelf_overflow.png": "/static/media/shelf_overflow.b53742bf4bfc73ca9d8f.png",
     "static/media/questport.png": "/static/media/questport.2c0823f7d73cee0cb91b.png",
     "static/media/Community Tab.png": "/static/media/Community Tab.de175c35048f0917f867.png",
-    "static/media/cartridge_overflow.png": "/static/media/cartridge_overflow.40525f398bdd22dd28e6.png",
     "static/media/cartridge_default_tp.png": "/static/media/cartridge_default_tp.e9819ad8a19488ffa63e.png",
-    "static/media/shelf_default.png": "/static/media/shelf_default.04f6066c55e46c334cbc.png",
-    "static/media/fridge_unopened.png": "/static/media/fridge_unopened.00ef87bc3f1c1870b3ca.png",
     "static/media/lab colours.png": "/static/media/lab colours.8025cd53c92cf516ee36.png",
-    "static/media/cartridge_default.png": "/static/media/cartridge_default.1c7572846f337586061d.png",
-    "static/media/crane.png": "/static/media/crane.a9bc547fa6b85fd73e9e.png",
     "index.html": "/index.html",
-    "main.a0b79b07.css.map": "/static/css/main.a0b79b07.css.map",
-    "main.ca22c120.js.map": "/static/js/main.ca22c120.js.map"
+    "main.7904b1f5.css.map": "/static/css/main.7904b1f5.css.map",
+    "main.b0ee7cf7.js.map": "/static/js/main.b0ee7cf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0b79b07.css",
-    "static/js/main.ca22c120.js"
+    "static/css/main.7904b1f5.css",
+    "static/js/main.b0ee7cf7.js"
   ]
 }
